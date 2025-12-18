@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "created": "2025-12-18T21:43:49.665503",
+  "schemas": {
+    "Product": {
+      "name": "Product",
+      "description": "Single product in catalog",
+      "fields": {
+        "id": {
+          "type": "int",
+          "required": true,
+          "description": "Unique product ID"
+        },
+        "productDisplayName": {
+          "type": "str",
+          "required": true,
+          "description": "Display name"
+        },
+        "masterCategory": {
+          "type": "str",
+          "required": true,
+          "description": "Top-level category"
+        },
+        "subCategory": {
+          "type": "str",
+          "required": true,
+          "description": "Sub-category"
+        },
+        "articleType": {
+          "type": "str",
+          "required": true,
+          "description": "Article type"
+        },
+        "baseColour": {
+          "type": "str",
+          "required": true,
+          "description": "Base color"
+        },
+        "gender": {
+          "type": "str",
+          "required": true,
+          "description": "Target gender"
+        },
+        "season": {
+          "type": "str",
+          "required": true,
+          "description": "Season"
+        },
+        "year": {
+          "type": "int",
+          "required": false,
+          "description": "Year"
+        },
+        "usage": {
+          "type": "str",
+          "required": false,
+          "description": "Usage context"
+        },
+        "desc": {
+          "type": "str",
+          "required": false,
+          "description": "Combined description"
+        },
+        "image_path": {
+          "type": "str",
+          "required": false,
+          "description": "Image file path"
+        }
+      },
+      "example": {
+        "id": 15970,
+        "productDisplayName": "Turtle Check Men Navy Blue Shirt",
+        "masterCategory": "Apparel",
+        "subCategory": "Topwear",
+        "articleType": "Shirts",
+        "baseColour": "Navy Blue",
+        "gender": "Men",
+        "season": "Fall",
+        "year": 2011,
+        "usage": "Casual",
+        "desc": "Turtle Check Men Navy Blue Shirt Apparel Topwear Shirts Navy Blue Men Fall Casual",
+        "image_path": "/content/drive/MyDrive/ai_fashion_assistant_v1/data/raw/images/15970.jpg",
+        "text_embedding": null,
+        "image_embedding": null,
+        "hybrid_embedding": null
+      }
+    },
+    "QueryRecord": {
+      "name": "QueryRecord",
+      "description": "User query with normalization and attributes",
+      "fields": {
+        "query_id": {
+          "type": "str",
+          "required": true,
+          "description": "Unique query ID"
+        },
+        "query_text_original": {
+          "type": "str",
+          "required": true,
+          "description": "Original input"
+        },
+        "query_text_tr": {
+          "type": "str",
+          "required": true,
+          "description": "Turkish normalized"
+        },
+        "query_norm": {
+          "type": "str",
+          "required": true,
+          "description": "Fully normalized"
+        },
+        "intent": {
+          "type": "Intent",
+          "required": false,
+          "description": "User intent"
+        },
+        "slots": {
+          "type": "Dict",
+          "required": false,
+          "description": "Extracted slots"
+        }
+      },
+      "example": {
+        "query_id": "q001",
+        "query_text_original": "Kırmızı kadın elbise",
+        "query_text_tr": "kırmızı kadın elbise",
+        "query_norm": "kirmizi kadin elbise",
+        "intent": "search",
+        "slots": {
+          "color": "red",
+          "gender": "women",
+          "articleType": "dress"
+        }
+      }
+    },
+    "GroundTruth": {
+      "name": "GroundTruth",
+      "description": "Ground truth relevance labels",
+      "fields": {
+        "query_id": {
+          "type": "str",
+          "required": true,
+          "description": "Query ID"
+        },
+        "product_id": {
+          "type": "int",
+          "required": true,
+          "description": "Product ID (NOT name!)"
+        },
+        "relevance": {
+          "type": "int",
+          "required": true,
+          "description": "0=not, 1=relevant, 2=highly"
+        }
+      },
+      "example": {
+        "query_id": "q001",
+        "product_id": 1234,
+        "relevance": 2
+      }
+    }
+  }
+}
