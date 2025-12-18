@@ -1,0 +1,100 @@
+{
+  "total_products": 44417,
+  "columns": [
+    "id",
+    "gender",
+    "masterCategory",
+    "subCategory",
+    "articleType",
+    "baseColour",
+    "season",
+    "year",
+    "usage",
+    "productDisplayName",
+    "image_path",
+    "desc"
+  ],
+  "data_types": {
+    "id": "int64",
+    "gender": "object",
+    "masterCategory": "object",
+    "subCategory": "object",
+    "articleType": "object",
+    "baseColour": "object",
+    "season": "object",
+    "year": "int64",
+    "usage": "object",
+    "productDisplayName": "object",
+    "image_path": "object",
+    "desc": "object"
+  },
+  "missing_values": {
+    "id": 0,
+    "gender": 0,
+    "masterCategory": 0,
+    "subCategory": 0,
+    "articleType": 0,
+    "baseColour": 0,
+    "season": 0,
+    "year": 0,
+    "usage": 0,
+    "productDisplayName": 0,
+    "image_path": 0,
+    "desc": 0
+  },
+  "categorical_distributions": {
+    "masterCategory": {
+      "Apparel": 21397,
+      "Accessories": 11272,
+      "Footwear": 9219,
+      "Personal Care": 2398,
+      "Free Items": 105,
+      "Sporting Goods": 25,
+      "Home": 1
+    },
+    "gender": {
+      "Men": 22144,
+      "Women": 18627,
+      "Unisex": 2161,
+      "Boys": 830,
+      "Girls": 655
+    },
+    "baseColour": {
+      "Black": 9728,
+      "White": 5538,
+      "Blue": 4918,
+      "Brown": 3493,
+      "Grey": 2741,
+      "Red": 2455,
+      "Green": 2115,
+      "Pink": 1860,
+      "Navy Blue": 1789,
+      "Purple": 1640
+    },
+    "season": {
+      "Summer": 21470,
+      "Fall": 11431,
+      "Winter": 8517,
+      "Spring": 2978,
+      "Unknown": 21
+    },
+    "articleType": {
+      "Tshirts": 7067,
+      "Shirts": 3217,
+      "Casual Shoes": 2845,
+      "Watches": 2542,
+      "Sports Shoes": 2036,
+      "Kurtas": 1844,
+      "Tops": 1762,
+      "Handbags": 1759,
+      "Heels": 1323,
+      "Sunglasses": 1073
+    }
+  },
+  "description_stats": {
+    "mean_length": 85.58817569849381,
+    "median_length": 84.0,
+    "min_length": 53,
+    "max_length": 151
+  }
+}
