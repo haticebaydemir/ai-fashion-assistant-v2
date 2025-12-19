@@ -169,10 +169,10 @@ class FashionSearchEngine:
             
             if apply_filters and intent.has_filters:
                 if 'color' in intent.filters:
-                    if intent.filters['color'] not in str(product.get('baseColour', '')').lower():
+                    if intent.filters['color'] not in str(product.get('baseColour', '')).lower():
                         continue
                 if 'gender' in intent.filters:
-                    if intent.filters['gender'] not in str(product.get('gender', '')').lower():
+                    if intent.filters['gender'] not in str(product.get('gender', '')).lower():
                         continue
             
             similarity = 1 - dist
