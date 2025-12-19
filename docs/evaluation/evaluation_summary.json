@@ -1,0 +1,39 @@
+{
+  "evaluation": {
+    "version": "2.0",
+    "date": "2025-12-19T23:28:15.248361",
+    "n_queries": 22,
+    "baseline_metrics": {
+      "recall@5": 0.25363649156922446,
+      "recall@10": 0.50605762096052,
+      "precision@5": 0.9818181818181819,
+      "precision@10": 0.9772727272727273,
+      "mrr": 1.0,
+      "ndcg@5": 0.9760807328548021,
+      "ndcg@10": 0.9730429529160212
+    },
+    "by_query_type": {
+      "specific": {
+        "n_queries": 13,
+        "recall@10": 0.497737556561086,
+        "precision@5": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 0.9784210830287703
+      },
+      "general": {
+        "n_queries": 7,
+        "recall@10": 0.5232399179767601,
+        "precision@5": 0.9428571428571428,
+        "mrr": 1.0,
+        "ndcg@10": 0.955352983539779
+      },
+      "attribute": {
+        "n_queries": 2,
+        "recall@10": 0.5,
+        "precision@5": 1.0,
+        "mrr": 1.0,
+        "ndcg@10": 1.0
+      }
+    }
+  }
+}
