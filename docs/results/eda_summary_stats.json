@@ -1,0 +1,77 @@
+{
+  "dataset": {
+    "total_products": 44417,
+    "unique_categories": {
+      "master_categories": 7,
+      "sub_categories": 45,
+      "article_types": 143,
+      "colors": 47,
+      "genders": 5,
+      "seasons": 5
+    },
+    "distribution": {
+      "master_categories": {
+        "Apparel": 21397,
+        "Accessories": 11272,
+        "Footwear": 9219,
+        "Personal Care": 2398,
+        "Free Items": 105,
+        "Sporting Goods": 25,
+        "Home": 1
+      },
+      "gender": {
+        "Men": 22144,
+        "Women": 18627,
+        "Unisex": 2161,
+        "Boys": 830,
+        "Girls": 655
+      },
+      "season": {
+        "Summer": 21470,
+        "Fall": 11431,
+        "Winter": 8517,
+        "Spring": 2978,
+        "Unknown": 21
+      }
+    }
+  },
+  "text_statistics": {
+    "description_length": {
+      "mean": 85.58817569849381,
+      "median": 84.0,
+      "std": 10.41844151412707,
+      "min": 53,
+      "max": 151
+    },
+    "word_count": {
+      "mean": 13.204989080757368,
+      "median": 13.0
+    }
+  },
+  "top_items": {
+    "colors": {
+      "Black": 9728,
+      "White": 5538,
+      "Blue": 4918,
+      "Brown": 3493,
+      "Grey": 2741,
+      "Red": 2455,
+      "Green": 2115,
+      "Pink": 1860,
+      "Navy Blue": 1789,
+      "Purple": 1640
+    },
+    "article_types": {
+      "Tshirts": 7067,
+      "Shirts": 3217,
+      "Casual Shoes": 2845,
+      "Watches": 2542,
+      "Sports Shoes": 2036,
+      "Kurtas": 1844,
+      "Tops": 1762,
+      "Handbags": 1759,
+      "Heels": 1323,
+      "Sunglasses": 1073
+    }
+  }
+}
