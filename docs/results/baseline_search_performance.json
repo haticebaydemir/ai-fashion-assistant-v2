@@ -1,0 +1,30 @@
+{
+  "baseline_search_performance": {
+    "version": "1.0",
+    "date": "2025-12-19T14:25:58.781595",
+    "configuration": {
+      "text_model": "paraphrase-multilingual-mpnet-base-v2",
+      "image_model": "openai/clip-vit-large-patch14",
+      "index_type": "FAISS HNSW",
+      "index_vectors": 44417,
+      "device": "cpu"
+    },
+    "performance": {
+      "mean_latency_ms": 14.402191638946533,
+      "median_latency_ms": 2.328157424926758,
+      "p95_latency_ms": 147.23756313323975,
+      "p99_latency_ms": 156.00834846496585,
+      "qps": 69.433876806346
+    },
+    "features": {
+      "text_search": true,
+      "image_search": true,
+      "hybrid_search": true,
+      "query_understanding": true,
+      "filters": [
+        "color",
+        "gender"
+      ]
+    }
+  }
+}
