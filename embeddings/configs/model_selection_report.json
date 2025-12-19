@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "created": "2025-12-19T08:01:12.835079",
+  "text_models": {
+    "primary": {
+      "name": "paraphrase-multilingual-mpnet-base-v2",
+      "dimension": 768,
+      "rationale": "Best multilingual semantic similarity, strong Turkish support"
+    },
+    "secondary": {
+      "name": "openai/clip-vit-large-patch14",
+      "dimension": 512,
+      "rationale": "Vision-language alignment, fashion domain knowledge"
+    },
+    "combined_dimension": 1280
+  },
+  "image_model": {
+    "name": "openai/clip-vit-large-patch14",
+    "dimension": 768,
+    "rationale": "State-of-the-art vision-language model, strong fashion understanding"
+  },
+  "hybrid": {
+    "dimension": 2048,
+    "composition": "text (1280d) + image (768d)"
+  },
+  "performance": {
+    "text_encoding_ms": 8.920011520385742,
+    "image_encoding_ms": 68.10627222061157,
+    "estimated_total_hours": 0.9503759642243386
+  },
+  "validation": {
+    "multilingual_support": "passed",
+    "dimension_consistency": "passed",
+    "inference_speed": "acceptable"
+  }
+}
