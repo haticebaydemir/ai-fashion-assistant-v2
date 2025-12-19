@@ -2,10 +2,13 @@
   "text_model_primary": "paraphrase-multilingual-mpnet-base-v2",
   "text_model_primary_dim": 768,
   "text_model_secondary": "openai/clip-vit-large-patch14",
-  "text_model_secondary_dim": 512,
+  "text_model_secondary_dim": 768,
   "image_model": "openai/clip-vit-large-patch14",
   "image_model_dim": 768,
-  "text_combined_dim": 1280,
-  "hybrid_dim": 2048,
+  "text_combined_dim": 1536,
+  "hybrid_dim": 2304,
   "device": "cuda"
 }
+
+
+

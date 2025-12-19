@@ -1,0 +1,44 @@
+{
+  "total_products": 44417,
+  "text_embeddings": {
+    "mpnet": {
+      "shape": "freed",
+      "dimension": 768
+    },
+    "clip_text": {
+      "shape": "freed",
+      "dimension": 768
+    },
+    "combined": {
+      "shape": [
+        44417,
+        1536
+      ],
+      "dimension": 1536,
+      "mean_norm": 12.818163871765137,
+      "std_norm": 0.6364664435386658
+    }
+  },
+  "image_embeddings": {
+    "shape": [
+      44417,
+      768
+    ],
+    "dimension": 768,
+    "mean_norm": 18.248659133911133,
+    "std_norm": 0.8698320984840393,
+    "failed_count": 254
+  },
+  "files": {
+    "text": [
+      "mpnet_768d.npy",
+      "clip_text_512d.npy",
+      "combined_1280d.npy",
+      "combined_1280d_normalized.npy"
+    ],
+    "image": [
+      "clip_image_768d.npy",
+      "clip_image_768d_normalized.npy"
+    ]
+  }
+}
