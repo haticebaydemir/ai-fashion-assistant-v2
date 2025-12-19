@@ -1,0 +1,15 @@
+{
+  "fusion_ranking": {
+    "version": "2.0",
+    "date": "2025-12-19T19:39:00.415912",
+    "model_type": "logistic",
+    "training_auc": 1.0,
+    "training_accuracy": 1.0,
+    "performance": {
+      "baseline_ms": 65.21917819976807,
+      "fusion_ms": 21.921348571777344,
+      "total_ms": 87.14052677154541,
+      "qps": 11.475716719290443
+    }
+  }
+}
