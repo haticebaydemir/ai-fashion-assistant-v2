@@ -1,0 +1,56 @@
+{
+  "optimization": {
+    "version": "2.0_phase5",
+    "date": "2025-12-20T17:41:11.037851",
+    "method": "Optuna + LightGBM",
+    "n_trials": 20,
+    "best_auc": 1.0,
+    "best_params": {
+      "num_leaves": 38,
+      "learning_rate": 0.09806900205627272,
+      "n_estimators": 189,
+      "max_depth": 6,
+      "min_child_samples": 18,
+      "subsample": 0.6010916441329952,
+      "colsample_bytree": 0.7640956994476152
+    },
+    "ablation_results": {
+      "configurations": [
+        "Baseline Only",
+        "Baseline + Query Expansion",
+        "Baseline + LightGBM",
+        "Full System (Expansion + LightGBM)"
+      ],
+      "performance": [
+        {
+          "config": "Baseline Only",
+          "recall": 0.506,
+          "ndcg": 0.973,
+          "latency": 20
+        },
+        {
+          "config": "Baseline + Query Expansion",
+          "recall": 0.52,
+          "ndcg": 0.975,
+          "latency": 45
+        },
+        {
+          "config": "Baseline + LightGBM",
+          "recall": 0.51,
+          "ndcg": 0.98,
+          "latency": 35
+        },
+        {
+          "config": "Full System",
+          "recall": 0.48,
+          "ndcg": 0.866,
+          "latency": 70
+        }
+      ]
+    },
+    "optimizations": {
+      "caching": "LRU cache (1000 queries)",
+      "expected_speedup": "50% on repeated queries"
+    }
+  }
+}
