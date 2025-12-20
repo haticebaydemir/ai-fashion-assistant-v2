@@ -1,0 +1,60 @@
+{
+  "project": "AI Fashion Assistant v2.0",
+  "version": "2.0",
+  "date": "2025-12-20T07:35:16.500544",
+  "status": "Production Ready",
+  "products": 44417,
+  "test_queries": 22,
+  "baseline_metrics": {
+    "recall@5": 0.25363649156922446,
+    "recall@10": 0.50605762096052,
+    "precision@5": 0.9818181818181819,
+    "precision@10": 0.9772727272727273,
+    "mrr": 1.0,
+    "ndcg@5": 0.9760807328548021,
+    "ndcg@10": 0.9730429529160212
+  },
+  "fusion_improvements": {
+    "recall@10": {
+      "baseline": 0.50605762096052,
+      "fusion": 0.5110792590452292,
+      "improvement": 0.0050216380847092346,
+      "improvement_pct": 0.9923055946036227
+    },
+    "precision@5": {
+      "baseline": 0.9818181818181819,
+      "fusion": 0.9820537881919865,
+      "improvement": 0.0002356063738045977,
+      "improvement_pct": 0.02399694548009791
+    },
+    "mrr": {
+      "baseline": 1.0,
+      "fusion": 1.0,
+      "improvement": 0.0,
+      "improvement_pct": 0.0
+    },
+    "ndcg@10": {
+      "baseline": 0.9730429529160212,
+      "fusion": 0.9743515324360683,
+      "improvement": 0.0013085795200471484,
+      "improvement_pct": 0.13448322256747136
+    }
+  },
+  "recommendations": {
+    "immediate": [
+      "API Development",
+      "Monitoring",
+      "Load Testing"
+    ],
+    "short_term": [
+      "Ground Truth Collection",
+      "Performance Optimization",
+      "A/B Testing"
+    ],
+    "long_term": [
+      "Personalization",
+      "Visual Search",
+      "Multi-language"
+    ]
+  }
+}
