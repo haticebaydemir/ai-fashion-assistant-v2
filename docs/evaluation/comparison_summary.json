@@ -1,0 +1,53 @@
+{
+  "comparison": {
+    "version": "2.0",
+    "date": "2025-12-19T23:48:25.307208",
+    "n_queries": 22,
+    "metrics": {
+      "recall@10": {
+        "baseline": 0.50605762096052,
+        "fusion": 0.5110792590452292,
+        "improvement": 0.0050216380847092346,
+        "improvement_pct": 0.9923055946036227
+      },
+      "precision@5": {
+        "baseline": 0.9818181818181819,
+        "fusion": 0.9820537881919865,
+        "improvement": 0.0002356063738045977,
+        "improvement_pct": 0.02399694548009791
+      },
+      "mrr": {
+        "baseline": 1.0,
+        "fusion": 1.0,
+        "improvement": 0.0,
+        "improvement_pct": 0.0
+      },
+      "ndcg@10": {
+        "baseline": 0.9730429529160212,
+        "fusion": 0.9743515324360683,
+        "improvement": 0.0013085795200471484,
+        "improvement_pct": 0.13448322256747136
+      }
+    },
+    "by_query_type": {
+      "specific": {
+        "n_queries": 13,
+        "ndcg@10_baseline": 0.9784210830287703,
+        "ndcg@10_fusion": 0.98017875664094,
+        "improvement_pct": 0.1796438816229019
+      },
+      "general": {
+        "n_queries": 7,
+        "ndcg@10_baseline": 0.955352983539779,
+        "ndcg@10_fusion": 0.9562014110373264,
+        "improvement_pct": 0.0888077508696025
+      },
+      "attribute": {
+        "n_queries": 2,
+        "ndcg@10_baseline": 1.0,
+        "ndcg@10_fusion": 1.0,
+        "improvement_pct": 0.0
+      }
+    }
+  }
+}
