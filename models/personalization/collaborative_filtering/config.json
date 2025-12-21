@@ -1,0 +1,9 @@
+{
+  "version": "2.0_phase6",
+  "algorithm": "ALS (Alternating Least Squares)",
+  "factors": 50,
+  "n_users": 100,
+  "n_items": 44417,
+  "matrix_sparsity": 99.93412432176869,
+  "created": "2025-12-21T09:04:16.518183"
+}
