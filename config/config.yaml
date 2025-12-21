@@ -1,0 +1,22 @@
+api:
+  description: Production API for fashion product search
+  docs_url: /docs
+  redoc_url: /redoc
+  title: AI Fashion Assistant API
+  version: 2.0.0
+cache:
+  enabled: true
+  max_size: 10000
+  ttl: 3600
+logging:
+  file: /var/log/fashion_api.log
+  format: json
+  level: INFO
+models:
+  image_encoder: openai/clip-vit-large-patch14
+  ranker: lightgbm
+  text_encoder: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+search:
+  default_k: 10
+  max_k: 100
+  timeout_ms: 1000
