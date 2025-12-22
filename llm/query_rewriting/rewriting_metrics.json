@@ -1,0 +1,11 @@
+{
+  "total_queries": 5,
+  "avg_variant_length": {
+    "focused": 3.2,
+    "expanded": 5.2,
+    "synonyms": 5.2
+  },
+  "avg_unique_tokens": 4.2,
+  "vocabulary_expansion": 2.625,
+  "variant_diversity": 3.333333333333333
+}

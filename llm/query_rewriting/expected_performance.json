@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "recall@10": 0.48,
+    "ndcg@10": 0.866,
+    "vocabulary_coverage": 1.0
+  },
+  "expected": {
+    "recall@10": 0.6,
+    "ndcg@10": 0.9,
+    "vocabulary_coverage": 1.4
+  },
+  "improvement": {
+    "recall@10": 25.0,
+    "ndcg@10": 3.926096997690535,
+    "vocabulary_coverage": 39.99999999999999
+  }
+}

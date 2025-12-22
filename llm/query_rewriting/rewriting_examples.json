@@ -1,0 +1,122 @@
+[
+  {
+    "query": "beyaz ayakkabı",
+    "variants": {
+      "focused": "kadın beyaz ayakkabı",
+      "expanded": "kadın beyaz ayakkabı günlük rahat",
+      "synonyms": "kadın beyaz ayakkabı shoes white"
+    },
+    "results_count": 10,
+    "metadata": {
+      "original_query": "beyaz ayakkabı",
+      "variants": {
+        "focused": "kadın beyaz ayakkabı",
+        "expanded": "kadın beyaz ayakkabı günlük rahat",
+        "synonyms": "kadın beyaz ayakkabı shoes white"
+      },
+      "variant_counts": {
+        "focused": 30,
+        "expanded": 30,
+        "synonyms": 30
+      },
+      "merged_count": 90,
+      "final_count": 10
+    }
+  },
+  {
+    "query": "spor ayakkabı",
+    "variants": {
+      "focused": "kadın spor ayakkabı",
+      "expanded": "kadın spor ayakkabı rahat aktif",
+      "synonyms": "kadın spor ayakkabı shoes sneaker"
+    },
+    "results_count": 10,
+    "metadata": {
+      "original_query": "spor ayakkabı",
+      "variants": {
+        "focused": "kadın spor ayakkabı",
+        "expanded": "kadın spor ayakkabı rahat aktif",
+        "synonyms": "kadın spor ayakkabı shoes sneaker"
+      },
+      "variant_counts": {
+        "focused": 30,
+        "expanded": 30,
+        "synonyms": 30
+      },
+      "merged_count": 90,
+      "final_count": 10
+    }
+  },
+  {
+    "query": "siyah elbise",
+    "variants": {
+      "focused": "kadın siyah elbise",
+      "expanded": "kadın siyah elbise şık zarif",
+      "synonyms": "kadın siyah elbise dress black"
+    },
+    "results_count": 10,
+    "metadata": {
+      "original_query": "siyah elbise",
+      "variants": {
+        "focused": "kadın siyah elbise",
+        "expanded": "kadın siyah elbise şık zarif",
+        "synonyms": "kadın siyah elbise dress black"
+      },
+      "variant_counts": {
+        "focused": 30,
+        "expanded": 30,
+        "synonyms": 30
+      },
+      "merged_count": 90,
+      "final_count": 10
+    }
+  },
+  {
+    "query": "nike spor ayakkabı",
+    "variants": {
+      "focused": "kadın nike spor ayakkabı",
+      "expanded": "kadın nike spor ayakkabı rahat aktif",
+      "synonyms": "kadın nike spor ayakkabı shoes sneaker"
+    },
+    "results_count": 10,
+    "metadata": {
+      "original_query": "nike spor ayakkabı",
+      "variants": {
+        "focused": "kadın nike spor ayakkabı",
+        "expanded": "kadın nike spor ayakkabı rahat aktif",
+        "synonyms": "kadın nike spor ayakkabı shoes sneaker"
+      },
+      "variant_counts": {
+        "focused": 30,
+        "expanded": 30,
+        "synonyms": 30
+      },
+      "merged_count": 90,
+      "final_count": 10
+    }
+  },
+  {
+    "query": "kot pantolon",
+    "variants": {
+      "focused": "kadın kot pantolon",
+      "expanded": "kadın kot pantolon rahat günlük",
+      "synonyms": "kadın kot pantolon pants trousers"
+    },
+    "results_count": 10,
+    "metadata": {
+      "original_query": "kot pantolon",
+      "variants": {
+        "focused": "kadın kot pantolon",
+        "expanded": "kadın kot pantolon rahat günlük",
+        "synonyms": "kadın kot pantolon pants trousers"
+      },
+      "variant_counts": {
+        "focused": 30,
+        "expanded": 30,
+        "synonyms": 30
+      },
+      "merged_count": 90,
+      "final_count": 10
+    }
+  }
+]
