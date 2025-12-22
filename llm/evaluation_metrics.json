@@ -1,0 +1,33 @@
+{
+  "slot_extraction": {
+    "total_queries": 8,
+    "successful": 8,
+    "avg_slots_per_query": 3.375,
+    "avg_confidence": 0.9318518518518518,
+    "high_confidence_rate": 0.6666666666666666,
+    "slot_distribution": {
+      "category": 7,
+      "subcategory": 5,
+      "color": 4,
+      "gender": 4,
+      "brand": 2,
+      "style": 5
+    }
+  },
+  "intent_classification": {
+    "intent_distribution": {
+      "search": 8
+    },
+    "avg_confidence": 0.9699999999999999
+  },
+  "llm_stats": {
+    "total_requests": 8,
+    "cache_hits": 0,
+    "total_tokens": 0,
+    "total_cost": 0.0,
+    "total_latency": 0.00044918060302734375,
+    "avg_latency": 5.614757537841797e-05,
+    "cache_hit_rate": 0.0
+  },
+  "timestamp": "2025-12-22T06:27:10.467614"
+}

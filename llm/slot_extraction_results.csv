@@ -1,0 +1,9 @@
+query,intent,intent_confidence,slots,reasoning
+beyaz nike spor ayakkabı kadın,search,0.97,"{'category': 'ayakkabı', 'subcategory': 'spor ayakkabı', 'color': 'beyaz', 'gender': 'kadın', 'brand': 'nike', 'style': 'sporty'}",Extracted intent 'search' with 6 slots
+siyah elbise şık,search,0.97,"{'category': 'giyim', 'subcategory': 'elbise', 'color': 'siyah', 'style': 'elegant'}",Extracted intent 'search' with 4 slots
+erkek kot pantolon mavi,search,0.97,"{'category': 'giyim', 'subcategory': 'pantolon', 'color': 'mavi', 'gender': 'erkek'}",Extracted intent 'search' with 4 slots
+günlük rahat ayakkabı,search,0.97,"{'category': 'ayakkabı', 'style': 'casual'}",Extracted intent 'search' with 2 slots
+zara gömlek kadın beyaz,search,0.97,"{'category': 'giyim', 'subcategory': 'gömlek', 'color': 'beyaz', 'gender': 'kadın', 'brand': 'zara'}",Extracted intent 'search' with 5 slots
+200 lira altı spor ayakkabı,search,0.97,"{'category': 'ayakkabı', 'subcategory': 'spor ayakkabı', 'style': 'sporty'}",Extracted intent 'search' with 3 slots
+36 numara topuklu ayakkabı,search,0.97,{'category': 'ayakkabı'},Extracted intent 'search' with 1 slots
+casual tişört erkek,search,0.97,"{'gender': 'erkek', 'style': 'casual'}",Extracted intent 'search' with 2 slots

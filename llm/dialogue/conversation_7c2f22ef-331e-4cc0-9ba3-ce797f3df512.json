@@ -1,0 +1,121 @@
+{
+  "conversation_id": "7c2f22ef-331e-4cc0-9ba3-ce797f3df512",
+  "user_id": "test_user_001",
+  "turns": [
+    {
+      "turn_id": 1,
+      "timestamp": "2025-12-22T10:25:02.345059",
+      "user_message": "beyaz spor ayakkabı",
+      "slots_extracted": {
+        "color": {
+          "value": "beyaz",
+          "confidence": 0.95,
+          "turn_id": 1
+        },
+        "subcategory": {
+          "value": "spor ayakkabı",
+          "confidence": 0.92,
+          "turn_id": 1
+        }
+      },
+      "intent": "search",
+      "intent_confidence": 0.97,
+      "bot_response": "Anladım, 0 kriter ile arama yapıyorum...",
+      "products_shown": [],
+      "user_feedback": null
+    },
+    {
+      "turn_id": 2,
+      "timestamp": "2025-12-22T10:25:02.345128",
+      "user_message": "nike olsun",
+      "slots_extracted": {
+        "brand": {
+          "value": "nike",
+          "confidence": 0.98,
+          "turn_id": 2
+        }
+      },
+      "intent": "filter",
+      "intent_confidence": 0.95,
+      "bot_response": "Sonuçları filtreliyorum...",
+      "products_shown": [],
+      "user_feedback": null
+    },
+    {
+      "turn_id": 3,
+      "timestamp": "2025-12-22T10:25:02.345177",
+      "user_message": "36 numara",
+      "slots_extracted": {
+        "size": {
+          "value": "36",
+          "confidence": 0.9,
+          "turn_id": 3
+        }
+      },
+      "intent": "filter",
+      "intent_confidence": 0.93,
+      "bot_response": "Sonuçları filtreliyorum...",
+      "products_shown": [],
+      "user_feedback": null
+    },
+    {
+      "turn_id": 4,
+      "timestamp": "2025-12-22T10:25:02.345218",
+      "user_message": "kadın",
+      "slots_extracted": {
+        "gender": {
+          "value": "kadın",
+          "confidence": 0.99,
+          "turn_id": 4
+        }
+      },
+      "intent": "filter",
+      "intent_confidence": 0.98,
+      "bot_response": "Sonuçları filtreliyorum...",
+      "products_shown": [],
+      "user_feedback": null
+    },
+    {
+      "turn_id": 5,
+      "timestamp": "2025-12-22T10:25:02.345254",
+      "user_message": "daha ucuz olanları göster",
+      "slots_extracted": {},
+      "intent": "filter",
+      "intent_confidence": 0.92,
+      "bot_response": "Sonuçları filtreliyorum...",
+      "products_shown": [],
+      "user_feedback": null
+    }
+  ],
+  "current_slots": {
+    "color": {
+      "value": "beyaz",
+      "confidence": 0.95,
+      "turn_id": 1
+    },
+    "subcategory": {
+      "value": "spor ayakkabı",
+      "confidence": 0.92,
+      "turn_id": 1
+    },
+    "brand": {
+      "value": "nike",
+      "confidence": 0.98,
+      "turn_id": 2
+    },
+    "size": {
+      "value": "36",
+      "confidence": 0.9,
+      "turn_id": 3
+    },
+    "gender": {
+      "value": "kadın",
+      "confidence": 0.99,
+      "turn_id": 4
+    }
+  },
+  "last_results": [],
+  "context_window": 5,
+  "created_at": "2025-12-22T10:25:02.343908",
+  "updated_at": "2025-12-22T10:25:02.345257"
+}

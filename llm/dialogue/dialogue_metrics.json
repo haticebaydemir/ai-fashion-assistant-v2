@@ -1,0 +1,10 @@
+{
+  "conversation_id": "7c2f22ef-331e-4cc0-9ba3-ce797f3df512",
+  "total_turns": 5,
+  "total_slots_accumulated": 5,
+  "avg_slots_per_turn": 1.0,
+  "slot_retention_rate": 1.0,
+  "clarification_count": 0,
+  "context_continuity": 1.0,
+  "avg_confidence": 0.9480000000000001
+}

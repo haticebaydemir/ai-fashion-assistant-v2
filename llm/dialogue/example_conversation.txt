@@ -1,0 +1,28 @@
+Multi-Turn Conversation Example
+==================================================
+
+Turn 1:
+  User: beyaz spor ayakkabı
+  Bot: Anladım, 0 kriter ile arama yapıyorum...
+  Slots: ['color', 'subcategory']
+
+Turn 2:
+  User: nike olsun
+  Bot: Sonuçları filtreliyorum...
+  Slots: ['brand']
+
+Turn 3:
+  User: 36 numara
+  Bot: Sonuçları filtreliyorum...
+  Slots: ['size']
+
+Turn 4:
+  User: kadın
+  Bot: Sonuçları filtreliyorum...
+  Slots: ['gender']
+
+Turn 5:
+  User: daha ucuz olanları göster
+  Bot: Sonuçları filtreliyorum...
+  Slots: []
+
