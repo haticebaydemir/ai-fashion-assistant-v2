@@ -1,0 +1,18 @@
+{
+  "query": "beyaz nike ayakkabı",
+  "slots": {
+    "color": "beyaz",
+    "brand": "nike",
+    "category": "ayakkabı"
+  },
+  "results_count": 3,
+  "explanations": [
+    "Product #1: Product 1\n\nWhy this ranked here:\n✓ Matches color (beyaz)\n✓ Matches brand (nike)\n✓ Matches category (ayakkabı)\n\nRanking factors:\n- text_match: 40%\n- image_match: 22%\n- brand: 18%\n- popularity: 12%\n- other: 9%\n\nConfidence: 100% - High confidence - strong match\n",
+    "Product #2: Product 2\n\nWhy this ranked here:\n✓ Matches color (beyaz)\n✓ Matches brand (nike)\n✓ Matches category (ayakkabı)\n\nRanking factors:\n- text_match: 33%\n- brand: 26%\n- image_match: 19%\n- popularity: 17%\n- other: 5%\n\nConfidence: 100% - High confidence - strong match\n",
+    "Product #3: Product 3\n\nWhy this ranked here:\n✓ Matches color (beyaz)\n✓ Matches brand (nike)\n✓ Matches category (ayakkabı)\n\nRanking factors:\n- image_match: 33%\n- text_match: 32%\n- brand: 16%\n- popularity: 13%\n- other: 6%\n\nConfidence: 100% - High confidence - strong match\n"
+  ],
+  "suggestions": [
+    "Try removing some filters",
+    "Try removing brand filter"
+  ]
+}
