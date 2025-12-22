@@ -1,0 +1,42 @@
+{
+  "mean": {
+    "map": 0.0,
+    "recall": 0.0,
+    "success": 0.0,
+    "ils": -0.003999354863908933,
+    "cat_diversity": 0.51,
+    "novelty": 0.312
+  },
+  "std": {
+    "map": 0.0,
+    "recall": 0.0,
+    "success": 0.0,
+    "ils": 0.009586915624464433,
+    "cat_diversity": 0.0875595035770913,
+    "novelty": 0.026997942308422097
+  },
+  "median": {
+    "map": 0.0,
+    "recall": 0.0,
+    "success": 0.0,
+    "ils": -0.0030349820960458105,
+    "cat_diversity": 0.5,
+    "novelty": 0.32
+  },
+  "min": {
+    "map": 0.0,
+    "recall": 0.0,
+    "success": 0.0,
+    "ils": -0.01849890371606388,
+    "cat_diversity": 0.4,
+    "novelty": 0.28
+  },
+  "max": {
+    "map": 0.0,
+    "recall": 0.0,
+    "success": 0.0,
+    "ils": 0.008110776441022998,
+    "cat_diversity": 0.6,
+    "novelty": 0.36000000000000004
+  }
+}
