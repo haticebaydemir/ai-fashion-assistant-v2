@@ -1,0 +1,41 @@
+{
+  "our_system": {
+    "recall": 0.40000000000000013,
+    "method": "Sentence transformers + CLIP + Query rewriting"
+  },
+  "baselines": [
+    {
+      "Method": "random",
+      "Description": "Random retrieval",
+      "Recall@10": 0.03333333333333333,
+      "Precision@10": 0.016666666666666666,
+      "NDCG@10": 0.02401680184777582
+    },
+    {
+      "Method": "popularity",
+      "Description": "Popularity-based",
+      "Recall@10": 0.020000000000000004,
+      "Precision@10": 0.010000000000000002,
+      "NDCG@10": 0.014088052828225943
+    },
+    {
+      "Method": "bm25",
+      "Description": "BM25 text search",
+      "Recall@10": 0.20000000000000007,
+      "Precision@10": 0.10000000000000003,
+      "NDCG@10": 0.16582321656763024
+    },
+    {
+      "Method": "ours",
+      "Description": "Our neural system",
+      "Recall@10": 0.40000000000000013,
+      "Precision@10": 0.20000000000000007,
+      "NDCG@10": 0.32813393213107384
+    }
+  ],
+  "improvements": {
+    "random": 1100.0000000000005,
+    "popularity": 1900.0000000000005,
+    "bm25": 100.0
+  }
+}

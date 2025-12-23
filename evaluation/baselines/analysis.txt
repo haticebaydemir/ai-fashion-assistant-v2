@@ -1,0 +1,15 @@
+Baseline Comparison Analysis
+============================================================
+
+Our system performance:
+  Recall@10: 40.0%
+
+Baseline comparisons:
+  vs random: 3.3% baseline, +1100% improvement
+  vs popularity: 2.0% baseline, +1900% improvement
+  vs bm25: 20.0% baseline, +100% improvement
+
+Conclusions:
+- Neural system significantly outperforms simple baselines
+- Worth the added complexity
+- BM25 is reasonable baseline but neural methods clearly better
