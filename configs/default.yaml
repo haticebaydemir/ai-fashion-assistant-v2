@@ -1,0 +1,41 @@
+data:
+  ground_truth_file: data/processed/ground_truth.csv
+  products_file: data/processed/products_cleaned.csv
+  queries_file: data/processed/test_queries.csv
+evaluation:
+  k_values:
+  - 5
+  - 10
+  - 20
+  metrics:
+  - recall
+  - ndcg
+  - map
+fusion:
+  image_weight: 0.4
+  method: weighted
+  text_weight: 0.6
+models:
+  image_encoder:
+    dim: 512
+    name: openai/clip-vit-base-patch32
+  llm:
+    model: gpt-4
+    provider: openai
+    temperature: 0.7
+  text_encoder:
+    dim: 768
+    name: sentence-transformers/paraphrase-multilingual-mpnet-base-v2
+project:
+  description: Multimodal fashion search with LLM integration
+  name: AI Fashion Assistant
+  version: 1.0.0
+query_rewriting:
+  enabled: true
+  num_variants: 3
+  rrf_k: 60
+random_seed: 42
+retrieval:
+  index_type: faiss
+  metric: cosine
+  top_k: 10

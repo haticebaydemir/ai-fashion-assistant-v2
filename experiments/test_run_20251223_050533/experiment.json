@@ -1,0 +1,81 @@
+{
+  "id": "test_run_20251223_050533",
+  "name": "test_run",
+  "start_time": "20251223_050533",
+  "config": {
+    "project": {
+      "name": "AI Fashion Assistant",
+      "version": "1.0.0",
+      "description": "Multimodal fashion search with LLM integration"
+    },
+    "data": {
+      "products_file": "data/processed/products_cleaned.csv",
+      "queries_file": "data/processed/test_queries.csv",
+      "ground_truth_file": "data/processed/ground_truth.csv"
+    },
+    "models": {
+      "text_encoder": {
+        "name": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+        "dim": 768
+      },
+      "image_encoder": {
+        "name": "openai/clip-vit-base-patch32",
+        "dim": 512
+      },
+      "llm": {
+        "provider": "openai",
+        "model": "gpt-4",
+        "temperature": 0.7
+      }
+    },
+    "retrieval": {
+      "index_type": "faiss",
+      "metric": "cosine",
+      "top_k": 10
+    },
+    "fusion": {
+      "method": "weighted",
+      "text_weight": 0.6,
+      "image_weight": 0.4
+    },
+    "query_rewriting": {
+      "enabled": true,
+      "num_variants": 3,
+      "rrf_k": 60
+    },
+    "evaluation": {
+      "metrics": [
+        "recall",
+        "ndcg",
+        "map"
+      ],
+      "k_values": [
+        5,
+        10,
+        20
+      ]
+    },
+    "random_seed": 42
+  },
+  "metrics": {
+    "recall@10": [
+      {
+        "value": 0.48,
+        "step": 0
+      }
+    ],
+    "ndcg@10": [
+      {
+        "value": 0.866,
+        "step": 0
+      }
+    ],
+    "map": [
+      {
+        "value": 0.42,
+        "step": 0
+      }
+    ]
+  },
+  "artifacts": []
+}
