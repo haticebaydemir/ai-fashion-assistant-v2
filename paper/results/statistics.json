@@ -1,0 +1,8 @@
+{
+  "improvement_over_bm25": 37.142857142857146,
+  "total_component_gain": 74.99999999999997,
+  "query_rewriting_gain": 18.181818181818176,
+  "best_recall@10": 0.48,
+  "best_ndcg@10": 0.866,
+  "map": 0.42
+}

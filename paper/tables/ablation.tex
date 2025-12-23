@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Ablation study: contribution of each component}
+\label{tab:ablation}
+\begin{tabular}{lrr}
+\toprule
+\textbf{Configuration} & \textbf{Recall@10} & \textbf{$\Delta$} \\
+\midrule
+Text only           & 0.400 & -      \\
+Image only          & 0.350 & -0.050 \\
+Text + Image        & 0.550 & +0.150 \\
++ Query rewriting   & 0.650 & +0.100 \\
++ Personalization   & 0.700 & +0.050 \\
+\midrule
+Total improvement   & & +0.300 \\
+\bottomrule
+\end{tabular}
+\end{table}
