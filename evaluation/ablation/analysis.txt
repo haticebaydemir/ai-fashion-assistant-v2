@@ -1,0 +1,14 @@
+Ablation Study Analysis
+============================================================
+
+Key findings:
+
+Baseline (text only): 40.0% Recall@10
+Full system: 60.0% Recall@10
+Total improvement: +50.0%
+
+Component contributions:
+- Text: Essential baseline
+- Images: ~15% boost
+- Rewriting: ~20% boost (biggest)
+- Personalization: ~5% boost

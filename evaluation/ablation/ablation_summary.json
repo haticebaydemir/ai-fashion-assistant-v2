@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "config": "text_only",
+    "recall": 0.4000000000000001
+  },
+  "best": {
+    "config": "full",
+    "recall": 0.5999999999999999
+  },
+  "total_improvement": 49.999999999999936,
+  "results": [
+    {
+      "Configuration": "text_only",
+      "Description": "Text embeddings only",
+      "Recall@10": 0.4000000000000001,
+      "Precision@10": 0.20000000000000004,
+      "NDCG@10": 0.31854835865624304
+    },
+    {
+      "Configuration": "image_only",
+      "Description": "Image embeddings only",
+      "Recall@10": 0.20000000000000004,
+      "Precision@10": 0.10000000000000002,
+      "NDCG@10": 0.14792664456679944
+    },
+    {
+      "Configuration": "text_image",
+      "Description": "Text + Image hybrid",
+      "Recall@10": 0.4000000000000001,
+      "Precision@10": 0.20000000000000004,
+      "NDCG@10": 0.3342997241151201
+    },
+    {
+      "Configuration": "with_rewriting",
+      "Description": "Text + Image + Query rewriting",
+      "Recall@10": 0.5999999999999999,
+      "Precision@10": 0.29999999999999993,
+      "NDCG@10": 0.4736954064456995
+    },
+    {
+      "Configuration": "full",
+      "Description": "Full system (all features)",
+      "Recall@10": 0.5999999999999999,
+      "Precision@10": 0.29999999999999993,
+      "NDCG@10": 0.464542957334384
+    }
+  ]
+}
