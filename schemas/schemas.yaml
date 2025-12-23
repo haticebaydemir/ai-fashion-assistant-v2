@@ -1,0 +1,98 @@
+embedding:
+  description: Vector embeddings
+  fields:
+    embedding:
+      description: Vector embedding
+      type: list[float]
+    embedding_type:
+      description: '''text'' or ''image'''
+      type: str
+    item_id:
+      description: Item identifier
+      type: int
+    model_name:
+      description: Model used for embedding
+      type: str
+  required:
+  - item_id
+  - embedding_type
+  - embedding
+  - model_name
+ground_truth:
+  description: Query-product relevance judgments
+  fields:
+    product_id:
+      description: Product identifier
+      type: int
+    query_id:
+      description: Query identifier
+      type: int
+    relevance:
+      description: Relevance score (0-3)
+      type: int
+  required:
+  - query_id
+  - product_id
+  - relevance
+product:
+  description: Product catalog data
+  fields:
+    brand:
+      description: Brand name
+      type: str
+    category:
+      description: Product category
+      type: str
+    color:
+      description: Primary color
+      type: str
+    description:
+      description: Product description
+      type: str
+    gender:
+      description: Target gender
+      type: str
+    image_url:
+      description: URL to product image
+      type: str
+    name:
+      description: Product name
+      type: str
+    price:
+      description: Price in currency units
+      type: float
+    product_id:
+      description: Unique product identifier
+      type: int
+  optional:
+  - color
+  - brand
+  - gender
+  - price
+  - image_url
+  - description
+  required:
+  - product_id
+  - name
+  - category
+query:
+  description: Search query data
+  fields:
+    query_id:
+      description: Unique query identifier
+      type: int
+    query_text:
+      description: Query text
+      type: str
+    timestamp:
+      description: Query timestamp
+      type: str
+    user_id:
+      description: User identifier
+      type: str
+  optional:
+  - user_id
+  - timestamp
+  required:
+  - query_id
+  - query_text

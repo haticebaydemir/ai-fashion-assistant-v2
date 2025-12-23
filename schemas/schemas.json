@@ -1,0 +1,134 @@
+{
+  "product": {
+    "description": "Product catalog data",
+    "required": [
+      "product_id",
+      "name",
+      "category"
+    ],
+    "optional": [
+      "color",
+      "brand",
+      "gender",
+      "price",
+      "image_url",
+      "description"
+    ],
+    "fields": {
+      "product_id": {
+        "type": "int",
+        "description": "Unique product identifier"
+      },
+      "name": {
+        "type": "str",
+        "description": "Product name"
+      },
+      "category": {
+        "type": "str",
+        "description": "Product category"
+      },
+      "color": {
+        "type": "str",
+        "description": "Primary color"
+      },
+      "brand": {
+        "type": "str",
+        "description": "Brand name"
+      },
+      "gender": {
+        "type": "str",
+        "description": "Target gender"
+      },
+      "price": {
+        "type": "float",
+        "description": "Price in currency units"
+      },
+      "image_url": {
+        "type": "str",
+        "description": "URL to product image"
+      },
+      "description": {
+        "type": "str",
+        "description": "Product description"
+      }
+    }
+  },
+  "query": {
+    "description": "Search query data",
+    "required": [
+      "query_id",
+      "query_text"
+    ],
+    "optional": [
+      "user_id",
+      "timestamp"
+    ],
+    "fields": {
+      "query_id": {
+        "type": "int",
+        "description": "Unique query identifier"
+      },
+      "query_text": {
+        "type": "str",
+        "description": "Query text"
+      },
+      "user_id": {
+        "type": "str",
+        "description": "User identifier"
+      },
+      "timestamp": {
+        "type": "str",
+        "description": "Query timestamp"
+      }
+    }
+  },
+  "ground_truth": {
+    "description": "Query-product relevance judgments",
+    "required": [
+      "query_id",
+      "product_id",
+      "relevance"
+    ],
+    "fields": {
+      "query_id": {
+        "type": "int",
+        "description": "Query identifier"
+      },
+      "product_id": {
+        "type": "int",
+        "description": "Product identifier"
+      },
+      "relevance": {
+        "type": "int",
+        "description": "Relevance score (0-3)"
+      }
+    }
+  },
+  "embedding": {
+    "description": "Vector embeddings",
+    "required": [
+      "item_id",
+      "embedding_type",
+      "embedding",
+      "model_name"
+    ],
+    "fields": {
+      "item_id": {
+        "type": "int",
+        "description": "Item identifier"
+      },
+      "embedding_type": {
+        "type": "str",
+        "description": "'text' or 'image'"
+      },
+      "embedding": {
+        "type": "list[float]",
+        "description": "Vector embedding"
+      },
+      "model_name": {
+        "type": "str",
+        "description": "Model used for embedding"
+      }
+    }
+  }
+}
