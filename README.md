@@ -219,8 +219,7 @@ This project is submitted to **TÜBİTAK 2209-A Research Program**.
 - [x] Phase 6: Personalization
 - [x] Phase 7: Comprehensive evaluation
 - [x] Phase 8: Chatbot + deployment
-- [ ] Phase 9: Production deployment (AWS/GCP)
-- [ ] Phase 10: Mobile app
+
 
 ---
 
