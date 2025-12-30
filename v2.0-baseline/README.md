@@ -15,6 +15,38 @@ This directory serves as:
 - **Production Foundation** - Ready for deployment and extension
 
 ---
+## 🖼️ Uygulama Görselleri
+
+### Ana Sayfa
+<div align="center">
+  <img src="docs/screenshots/homepage.png" alt="Ana Sayfa" width="800"/>
+  <p><i>Kullanıcı dostu chatbot arayüzü ve akıllı ürün arama sistemi</i></p>
+</div>
+
+### Hızlı Arama
+<div align="center">
+  <img src="docs/screenshots/quick_search.png" alt="Hızlı Arama" width="800"/>
+  <p><i>Metin tabanlı hızlı arama - örnek: "siyah elbise"</i></p>
+</div>
+
+### Chatbot ile Konuşma
+<div align="center">
+  <img src="docs/screenshots/chatbot.png" alt="Chatbot" width="800"/>
+  <p><i>Doğal dil ile ürün keşfi ve kişiselleştirilmiş öneriler</i></p>
+</div>
+
+### Filtreler
+<div align="center">
+  <img src="docs/screenshots/filters.png" alt="Filtreler" width="800"/>
+  <p><i>Kategori, renk ve cinsiyet bazlı akıllı filtreleme</i></p>
+</div>
+
+### Sohbet Geçmişi
+<div align="center">
+  <img src="docs/screenshots/filters_empty.png" alt="Sohbet Görünümü" width="800"/>
+  <p><i>Geçmiş aramaları ve sonuçları görüntüleme</i></p>
+</div>
+
 
 ## 📊 Performance Summary
 
