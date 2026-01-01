@@ -1,0 +1,105 @@
+query,category,language,word_count
+kırmızı kazak,simple_item,Turkish,2
+black boots,simple_item,English,2
+mavi tayt,simple_item,English,2
+white shirt,simple_item,English,2
+siyah çanta,simple_item,Turkish,2
+blue sneakers,simple_item,English,2
+green dress,simple_item,English,2
+beyaz gömlek,simple_item,Turkish,2
+red lipstick,simple_item,English,2
+sarı ayakkabı,simple_item,Turkish,2
+grey hoodie,simple_item,English,2
+turuncu şal,simple_item,Turkish,2
+silver watch,simple_item,English,2
+mor elbise,simple_item,English,2
+brown loafers,simple_item,English,2
+summer dress with floral patterns,attribute_specific,English,5
+çiçekli elbise,attribute_specific,Turkish,2
+white sneakers for men,attribute_specific,English,4
+erkek için geniş ayakkabilar,attribute_specific,Turkish,4
+long sleeve blouse with v neck,attribute_specific,English,6
+kadın için süslü tişört,attribute_specific,Turkish,4
+black leather belt for jeans,attribute_specific,English,5
+jean pantolon için dar kemer,attribute_specific,Turkish,5
+flat shoes for women,attribute_specific,English,4
+beyaz kazak kadın,attribute_specific,Turkish,3
+-striped swimwear,attribute_specific,English,2
+erkek için spor ayakkabilar,attribute_specific,Turkish,4
+loose fitting maxi dress,attribute_specific,English,4
+çocuk için çizgili tişört,attribute_specific,Turkish,4
+high heel sandals for summer,attribute_specific,English,5
+kadın için geniş bele pantolon,attribute_specific,Turkish,5
+red scarf for women,attribute_specific,English,4
+erkek için siyah deri ceket,attribute_specific,Turkish,5
+womens boots with block heel,attribute_specific,English,5
+çocuk için süet ayakkabilar,attribute_specific,Turkish,4
+wedding guest dresses,occasion_based,English,3
+parti için abiye,occasion_based,Turkish,3
+summer wedding outfits,occasion_based,English,3
+düğün için erkek kıyafeti,occasion_based,Turkish,4
+office wear for women,occasion_based,English,4
+çocuklar için doğum günü kıyafeti,occasion_based,Turkish,5
+evening party shoes,occasion_based,English,3
+beyaz eşofman takımı,occasion_based,Turkish,3
+valentines day gift ideas for her,occasion_based,English,6
+babalar günü hediyesi,occasion_based,Turkish,3
+graduation outfit ideas,occasion_based,English,3
+kışlık abiye modelleri,occasion_based,Turkish,3
+what to wear to a summer festival,occasion_based,English,7
+erkek spor ayakkabı,occasion_based,Turkish,3
+new year's eve outfit inspiration,occasion_based,English,5
+vintage giyim,style_based,English,2
+summer dress styles,style_based,English,3
+moda aksesuarlar,style_based,English,2
+bohemian chic clothing,style_based,English,3
+minimalist fashion trends,style_based,English,3
+kadın elbise modelleri,style_based,Turkish,3
+streetwear clothing online,style_based,English,3
+çanta modelleri,style_based,Turkish,2
+luxury watch brands,style_based,English,3
+modern erkek kıyafeti,style_based,Turkish,3
+women's formal shoes,style_based,English,3
+örgü sweter modelleri,style_based,Turkish,3
+urban fashion clothing,style_based,English,3
+kadin spor giyim,style_based,English,3
+süslü mavi elbise,complex_multi_attr,Turkish,3
+casual brown leather jacket,complex_multi_attr,English,4
+kısa kollu beyaz gömlek,complex_multi_attr,Turkish,4
+elegant black high heel shoes,complex_multi_attr,English,5
+siyah kot pantolon,complex_multi_attr,English,3
+long sleeve green striped shirt,complex_multi_attr,English,5
+çocuk için renkli spor ayakkabı,complex_multi_attr,Turkish,5
+formal white wedding dress,complex_multi_attr,English,4
+erkek için siyah deri cüzdan,complex_multi_attr,Turkish,5
+red elegant evening clutch,complex_multi_attr,English,4
+turuncu geniş bele pantolon,complex_multi_attr,Turkish,4
+comfortable white sneakers,complex_multi_attr,English,3
+sıcak kahverengi kazak,complex_multi_attr,Turkish,3
+black and white geometric scarf,complex_multi_attr,English,5
+kadın için dar bele siyah etek,complex_multi_attr,Turkish,6
+blue and white striped t shirt,complex_multi_attr,English,6
+erkek için gri blazer ceket,complex_multi_attr,Turkish,5
+çocuk için pembe süslü elbise,complex_multi_attr,Turkish,5
+white and silver statement necklace,complex_multi_attr,English,5
+siyah ve beyaz çizgili şal,complex_multi_attr,Turkish,5
+yaz için şık elbise,seasonal,Turkish,4
+summer sandals for women,seasonal,English,4
+ilkbahar içinappropriate ayakkabı,seasonal,Turkish,3
+winter hats and scarves,seasonal,English,4
+bahar kıyafetleri kadın,seasonal,Turkish,3
+autumn boots on sale,seasonal,English,4
+kışlık ceket erkek,seasonal,Turkish,3
+spring dress with flowers,seasonal,English,4
+sonbahar için şal ve bere,seasonal,Turkish,5
+summer outfits for men,seasonal,English,4
+ucuz kadın ayakkabıları,budget_conscious,Turkish,3
+affordable winter coats,budget_conscious,English,3
+erkek giyim indirimleri,budget_conscious,English,3
+cheap sunglasses for men,budget_conscious,English,4
+uçuk fiyatlı el çantaları,budget_conscious,Turkish,4
+budget friendly dresses for summer,budget_conscious,English,5
+pahalı olmayan takı setleri,budget_conscious,Turkish,4
+men's shoes on sale,budget_conscious,English,4
+kadın giyim ucuz fiyatlı,budget_conscious,Turkish,4
+cheap and trendy accessories for women,budget_conscious,English,6
