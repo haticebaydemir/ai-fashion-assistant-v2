@@ -1,0 +1,27 @@
+
+======================================================================
+BASELINE COMPARISON - RRF CONSENSUS EVALUATION
+======================================================================
+
+📊 METHODOLOGY:
+   Reciprocal Rank Fusion (RRF) consensus ground truth
+   7 baseline methods evaluated on 104 queries
+   Category-wise performance analysis
+
+🏆 BEST METHOD:
+   Fusion α=0.7
+   Consensus Overlap@10: 0.6779
+   Rank Correlation: 0.8833
+
+📈 KEY INSIGHTS:
+   - Multimodal fusion shows balanced performance
+   - α=0.7 weighting favors text (fashion is descriptive)
+   - Dense methods > Sparse methods overall
+   - Category-specific strengths observed
+
+📁 OUTPUT FILES:
+   1. baseline_comparison_RRF.csv
+   2. category_performance.csv
+
+✅ v2.1 COMPLETE - Ready for v2.2!
+======================================================================

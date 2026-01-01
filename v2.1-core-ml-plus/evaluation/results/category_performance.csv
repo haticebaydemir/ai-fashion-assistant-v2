@@ -1,0 +1,50 @@
+Category,Method,Overlap@10
+simple_item,Fusion α=0.7,0.6933333333333334
+simple_item,Text-only,0.64
+simple_item,Fusion α=0.5,0.5866666666666666
+simple_item,BM25,0.36666666666666675
+simple_item,TF-IDF,0.32
+simple_item,BM25+Dense,0.14000000000000004
+simple_item,Image-only,0.0
+attribute_specific,Fusion α=0.7,0.6849999999999998
+attribute_specific,Text-only,0.62
+attribute_specific,Fusion α=0.5,0.585
+attribute_specific,BM25,0.31
+attribute_specific,TF-IDF,0.3
+attribute_specific,BM25+Dense,0.12000000000000002
+attribute_specific,Image-only,0.0
+occasion_based,Fusion α=0.7,0.6799999999999999
+occasion_based,Fusion α=0.5,0.5933333333333334
+occasion_based,Text-only,0.5666666666666665
+occasion_based,TF-IDF,0.3266666666666666
+occasion_based,BM25,0.3133333333333333
+occasion_based,BM25+Dense,0.12000000000000004
+occasion_based,Image-only,0.0
+style_based,Fusion α=0.7,0.65
+style_based,Text-only,0.5642857142857143
+style_based,Fusion α=0.5,0.5142857142857143
+style_based,TF-IDF,0.31428571428571433
+style_based,BM25,0.3142857142857142
+style_based,BM25+Dense,0.2
+style_based,Image-only,0.0
+complex_multi_attr,Fusion α=0.7,0.725
+complex_multi_attr,Text-only,0.6399999999999999
+complex_multi_attr,Fusion α=0.5,0.635
+complex_multi_attr,BM25,0.25
+complex_multi_attr,TF-IDF,0.24
+complex_multi_attr,BM25+Dense,0.13
+complex_multi_attr,Image-only,0.0
+seasonal,Fusion α=0.7,0.6199999999999999
+seasonal,Text-only,0.54
+seasonal,Fusion α=0.5,0.49000000000000005
+seasonal,BM25,0.38
+seasonal,TF-IDF,0.36
+seasonal,BM25+Dense,0.17000000000000004
+seasonal,Image-only,0.0
+budget_conscious,Fusion α=0.7,0.6399999999999999
+budget_conscious,Text-only,0.5800000000000001
+budget_conscious,Fusion α=0.5,0.5199999999999999
+budget_conscious,BM25,0.29
+budget_conscious,TF-IDF,0.26999999999999996
+budget_conscious,BM25+Dense,0.14
+budget_conscious,Image-only,0.0
