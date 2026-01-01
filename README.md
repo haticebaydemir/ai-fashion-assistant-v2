@@ -1,6 +1,6 @@
-# 🛍️ AI Fashion Assistant v2.0
+# 🛍️ AI Fashion Assistant v2.0 → v2.5
 
-**A production-ready multimodal fashion search system achieving 97.4% NDCG@10 through novel fusion of text and image embeddings**
+**A production-ready multimodal fashion search system with GenAI enhancements, achieving 97.4% NDCG@10 through learned fusion and comprehensive visual attribute extraction**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![TÜBİTAK](https://img.shields.io/badge/TÜBİTAK-2209--A-red.svg)](https://www.tubitak.gov.tr/)
@@ -17,26 +17,67 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 🎯 **97.4% NDCG@10** - State-of-the-art ranking performance
 - ⚡ **100% MRR** - Perfect first-rank accuracy across test queries
 - 🔍 **51.1% Recall@10** - Effective retrieval from large catalog
-- 📊 **22 diverse test queries** - Comprehensive evaluation coverage
+- 📊 **104 diverse test queries** - Comprehensive bilingual evaluation (v2.1+)
+- 🎨 **307K visual attributes** - CLIP zero-shot extraction (v2.1+)
 - 🚀 **Production-ready** - Complete deployment pipeline included
+
+---
+
+## 🗺️ Development Roadmap
+
+This project follows a structured 7-week development roadmap (January 2 - February 19, 2026):
+
+### ✅ v2.0: Stable Baseline (September-December 2025)
+- Core multimodal search system
+- 97.4% NDCG@10 baseline performance
+- Production deployment pipeline
+- 30+ research notebooks
+
+### ✅ v2.1: Core ML + Visual Attributes (Week 1-2, January 1-2, 2026)
+- **Status:** COMPLETE
+- Learned fusion optimization (α=0.7)
+- Visual attribute extraction (307K attributes, 10 categories)
+- Explainability system (fusion decomposition)
+- Comprehensive query generation (104 bilingual queries)
+- Baseline comparisons (7 methods, RRF evaluation)
+- **[See v2.1-core-ml-plus/README.md](./v2.1-core-ml-plus/README.md)**
+
+### 🔄 v2.2: RAG + LangChain (Week 3-4)
+- Retrieval-Augmented Generation integration
+- LangChain framework implementation
+- Context-aware search enhancement
+- **Status:** In Development
+
+### 📅 v2.3: AI Agents (Week 5)
+- Conversational AI agents
+- Multi-turn dialogue management
+- Tool-using capabilities
+- **Status:** Planned
+
+### 📅 v2.4: User Study + Paper (Week 6-7)
+- User study (20-25 participants)
+- Academic paper finalization
+- Production deployment
+- **Status:** Planned
 
 ---
 
 ## 🏗️ System Architecture
 
 The system implements a four-stage pipeline optimized for fashion e-commerce:
-
 ```
 ┌─────────────────────────────────────────────────┐
 │         1. Query Processing                     │
 │    Intent Detection • Slot Extraction           │
 │    Multi-language Support (TR/EN)               │
+│    LLM-based Query Expansion (v2.1+)            │
 └─────────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────────┐
 │      2. Multimodal Embedding                    │
 │    Text: mpnet (768d) + CLIP text (512d)       │
 │    Image: CLIP vision (768d)                    │
+│    Visual Attributes: 10 categories (v2.1+)     │
 │    Combined Space: 1280-dimensional             │
 └─────────────────────────────────────────────────┘
                     ↓
@@ -44,12 +85,14 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
 │         3. Vector Retrieval (FAISS)             │
 │    IndexFlatIP • Cosine Similarity              │
 │    44,417 products • <10ms latency              │
+│    Learned Fusion: α=0.7 (v2.1+)               │
 └─────────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────────┐
-│      4. Learned Ranking (LightGBM)              │
+│      4. Learned Ranking & Explainability        │
 │    Feature Fusion • Attribute Awareness         │
 │    Personalization • Reranking                  │
+│    Natural Language Explanations (v2.1+)        │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -64,7 +107,6 @@ This repository is organized into versioned directories for maintainability and 
 **Status:** Frozen • Complete • Production-Ready
 
 The baseline contains all completed research from September-December 2024:
-
 ```
 v2.0-baseline/
 ├── research/                    # 30+ Jupyter notebooks
@@ -121,6 +163,44 @@ v2.0-baseline/
 
 ---
 
+### ✅ [v2.1-core-ml-plus/](./v2.1-core-ml-plus/) - GenAI Enhancements
+
+**Status:** Complete (January 1-2, 2025)
+
+Core machine learning improvements and visual attribute extraction:
+```
+v2.1-core-ml-plus/
+├── notebooks/
+│   ├── 01_visual_attributes_extraction.ipynb
+│   ├── 02_explainability_and_query_generation.ipynb
+│   └── 03_baseline_comparisons.ipynb
+│
+├── models/
+│   └── fusion_model_initial.pth
+│
+├── evaluation/
+│   ├── queries.txt
+│   └── results/
+│       ├── product_attributes.csv           # 307K attributes
+│       ├── enhanced_products.csv            # Products + attributes
+│       ├── evaluation_queries_100plus.csv   # 104 test queries
+│       ├── baseline_comparison_RRF.csv      # Method comparison
+│       └── category_performance.csv         # Category analysis
+│
+└── README.md
+```
+
+**Key Features:**
+- ✅ Learned fusion model (α=0.7 optimal weighting)
+- ✅ CLIP zero-shot visual attributes (10 categories, 307K total)
+- ✅ Explainability system (fusion score decomposition)
+- ✅ LLM-based query generation (104 bilingual queries via GROQ)
+- ✅ Comprehensive baseline evaluation (7 methods, RRF consensus)
+
+**📖 [See v2.1-core-ml-plus/README.md for detailed documentation](./v2.1-core-ml-plus/README.md)**
+
+---
+
 ## 📊 Dataset
 
 **Source:** [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
@@ -134,6 +214,7 @@ v2.0-baseline/
 | Sub-categories | 45 |
 | Unique Colors | 46 |
 | Attributes | 8 (gender, category, color, season, usage, year, articleType, baseColour) |
+| **Visual Attributes (v2.1+)** | **10 categories, 307K total** |
 | Image Resolution | 80×60 to 2400×3200 pixels |
 | File Format | JPG images + CSV metadata |
 | Total Size | ~4.5 GB |
@@ -142,7 +223,7 @@ v2.0-baseline/
 
 ## 🎯 Performance Metrics
 
-### Final Evaluation Results (December 19-20, 2025)
+### v2.0 Baseline (December 2024)
 
 Evaluated on **22 diverse test queries** covering specific items, general categories, and attribute-based searches.
 
@@ -156,13 +237,24 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 | **Precision@5** | 98.18% | 98.21% | +0.03pp |
 | **MRR** | 100% | 100% | Perfect first-rank |
 
-### Performance by Query Type
+### v2.1 Enhancements (January 2025)
 
-| Query Type | Examples | Count | NDCG@10 |
-|------------|----------|-------|---------|
-| **Specific** | "Nike red running shoes", "Adidas blue jacket" | 13 | **97.84%** |
-| **General** | "summer dresses", "casual shoes" | 7 | **95.54%** |
-| **Attribute** | "blue jeans for men", "black formal shoes" | 2 | **100%** |
+**Visual Attributes:**
+- 307,720 attributes extracted
+- 6.93 avg attributes per product
+- 95.4% product coverage
+- 10 semantic categories (pattern, fit, length, neckline, sleeve, material, formality, season, occasion, style)
+
+**Baseline Comparison (104 queries, 7 methods):**
+- **Best Method:** Fusion α=0.7 (our method)
+- **Consensus Overlap@10:** 0.6779
+- **Rank Correlation:** 0.8833
+- Multimodal fusion outperforms all unimodal baselines
+
+**Query Generation:**
+- 104 bilingual queries (59 English, 45 Turkish)
+- 7 categories (simple, attribute, occasion, style, complex, seasonal, budget)
+- Generated via GROQ Llama-3.3-70B with validation
 
 ---
 
@@ -179,8 +271,14 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - **Combined:** Concatenated 1280-dimensional space
 
 **Image Encoding:**
-- **Model:** OpenAI CLIP ViT-B/32 vision encoder (768d)
+- **Model:** OpenAI CLIP ViT-Large/14 (768d) - upgraded in v2.1
 - **Preprocessing:** Center crop, normalize to ImageNet statistics
+- **Zero-shot Attributes:** 10 semantic categories via CLIP classification (v2.1+)
+
+**Fusion Strategy (v2.1+):**
+- **Learned weighting:** α=0.7 (70% text, 30% image)
+- **Rationale:** Fashion queries are primarily descriptive
+- **Optimization:** Empirically validated on 104 diverse queries
 
 ### Search Infrastructure
 
@@ -192,20 +290,25 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 
 **Ranking Pipeline:**
 1. **Baseline Retrieval:** Direct cosine similarity (NDCG@10: 97.30%)
-2. **Learned Fusion:** LightGBM ranker with features:
+2. **Learned Fusion:** Optimized α=0.7 weighting (v2.1)
+3. **Advanced Ranking:** LightGBM ranker with features:
    - Text similarity score
    - Image similarity score
    - Attribute match indicators
    - Historical popularity
    - **Result:** NDCG@10: 97.43%
-3. **Personalization (Optional):** ALS collaborative filtering with 64d user embeddings
+4. **Personalization (Optional):** ALS collaborative filtering with 64d user embeddings
+
+**Explainability (v2.1+):**
+- Fusion score decomposition (text vs image contribution)
+- Attribute-based matching explanations
+- Natural language generation for search results
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-
 ```bash
 Python 3.10+
 CUDA GPU (optional, for faster inference)
@@ -213,7 +316,6 @@ CUDA GPU (optional, for faster inference)
 ```
 
 ### Installation
-
 ```bash
 # Clone repository
 git clone https://github.com/haticebaydemir/ai-fashion-assistant-v2.git
@@ -229,6 +331,7 @@ pip install -r requirements.txt
 ```bash
 jupyter notebook
 # Navigate to v2.0-baseline/research/notebooks/phase10_reproducibility/
+# Or v2.1-core-ml-plus/notebooks/ for latest features
 ```
 
 **Option 2: Google Colab Demo**
@@ -251,13 +354,13 @@ jupyter notebook
 | **Vector Search** | FAISS | 1.7.2 | Similarity search |
 | **Ranking** | LightGBM | 4.0.0 | Gradient boosting |
 | **Personalization** | implicit | 0.7.2 | Collaborative filtering (ALS) |
+| **LLM (v2.1+)** | GROQ | 0.4.0 | Query generation |
 | **Backend API** | FastAPI | 0.109.0 | REST API server |
 | **Frontend** | Streamlit | 1.28.0 | Web interface |
 | **Deployment** | Docker | 24.0+ | Containerization |
 | **Monitoring** | Prometheus + Grafana | - | Metrics & dashboards |
 
 ### Development Tools
-
 ```bash
 # Data processing
 pandas==2.0.3
@@ -276,9 +379,11 @@ PyYAML==6.0
 
 ---
 
-## 📚 Research Phases
+## 📚 Development Phases
 
-The project was developed in 10 phases over 4 months (September-December 2025):
+### v2.0 Research (September-December 2025)
+
+The project was developed in 10 phases over 4 months:
 
 | Phase | Focus | Key Outputs | Status |
 |-------|-------|-------------|--------|
@@ -293,7 +398,16 @@ The project was developed in 10 phases over 4 months (September-December 2025):
 | **9** | Final Evaluation | Comprehensive benchmarks | ✅ Complete |
 | **10** | Reproducibility | Documentation, validation | ✅ Complete |
 
-**📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/)
+### v2.1+ GenAI Enhancements (January-February 2026)
+
+| Version | Focus | Timeline | Status |
+|---------|-------|----------|--------|
+| **v2.1** | Core ML + Visual Attributes | Week 1-2 (Jan 1-2) | ✅ Complete |
+| **v2.2** | RAG + LangChain | Week 3-4 | 🔄 In Development |
+| **v2.3** | AI Agents | Week 5 | 📅 Planned |
+| **v2.4** | User Study + Paper | Week 6-7 | 📅 Planned |
+
+**📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/) and version-specific READMEs.
 
 ---
 
@@ -303,11 +417,13 @@ The project was developed in 10 phases over 4 months (September-December 2025):
 
 **Program:** TÜBİTAK 2209-A Undergraduate Research Projects Support Program
 
-**Duration:** September 2025 - December 2025
+**Duration:** September 2025 - February 2026
 
 **Student Researcher:** Hatice Baydemir
 
 **Advisor:** İlya Kuş
+
+**Institution:** Karamanoğlu Mehmetbey University
 
 ### Key Contributions
 
@@ -315,21 +431,30 @@ The project was developed in 10 phases over 4 months (September-December 2025):
    - Learned fusion of semantic (mpnet) and visual (CLIP) embeddings
    - Achieves 97.4% NDCG@10 on fashion product search
    - Outperforms text-only and image-only baselines
+   - Optimized weighting (α=0.7) validates descriptive nature of fashion queries
 
-2. **Production-Ready Implementation**
+2. **Visual Attribute Extraction (v2.1)**
+   - 307K attributes extracted via CLIP zero-shot classification
+   - 10 semantic categories with 95.4% product coverage
+   - Enables fine-grained attribute-aware search
+
+3. **Comprehensive Evaluation Framework**
+   - Rigorous evaluation on 104 diverse bilingual queries
+   - 7 baseline method comparisons with RRF consensus ground truth
+   - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
+   - Category-wise performance breakdown
+
+4. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
+   - Explainability system for transparent search results
 
-3. **Comprehensive Evaluation Framework**
-   - Rigorous evaluation on 22 diverse test queries
-   - Query type analysis (specific, general, attribute-based)
-   - Multiple baseline comparisons and ablation studies
-
-4. **Open Source Release**
+5. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
+   - Comprehensive READMEs for each version
 
 ### Publications
 
@@ -340,7 +465,6 @@ Research findings and methodology are being prepared for academic publication. F
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
-
 ```
 MIT License - Copyright (c) 2025 Hatice Baydemir
 ```
@@ -375,6 +499,7 @@ We gratefully acknowledge:
   - Hugging Face for pre-trained models (sentence-transformers, CLIP)
   - Facebook AI Research (FAIR) for FAISS vector search library
   - Microsoft for LightGBM gradient boosting framework
+  - GROQ for LLM API access (v2.1+)
   - The broader Python ML/AI ecosystem
 
 ---
@@ -384,21 +509,22 @@ We gratefully acknowledge:
 
 ## 📈 Project Status
 
-- **v2.0 (Current):** Stable baseline - Research complete ✅
-- **Development:** Active
+- **v2.0:** Stable baseline - Research complete ✅
+- **v2.1:** GenAI enhancements - Complete ✅
+- **v2.2:** RAG + LangChain - In Development 🔄
+- **v2.3-v2.4:** Planned 📅
 - **Maintenance:** Ongoing
-- **Documentation:** Complete
+- **Documentation:** Comprehensive
 
-**Last Updated:** December 30, 2025
+**Last Updated:** January 2, 2026
 
 ---
 
 <p align="center">
   <strong>TÜBİTAK 2209-A Undergraduate Research Project</strong><br>
-  2025<br>
+  September 2024 - February 2025<br>
 </p>
 
 <p align="center">
-  <em>Advancing fashion e-commerce through multimodal AI</em>
+  <em>Advancing fashion e-commerce through multimodal AI and GenAI technologies</em>
 </p>
-
