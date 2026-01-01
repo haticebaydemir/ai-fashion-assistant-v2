@@ -389,13 +389,13 @@ We gratefully acknowledge:
 - **Maintenance:** Ongoing
 - **Documentation:** Complete
 
-**Last Updated:** December 30, 2025
+**Last Updated:** January 1, 2026
 
 ---
 
 <p align="center">
   <strong>TÜBİTAK 2209-A Undergraduate Research Project</strong><br>
-  2025<br>
+  2026<br>
 </p>
 
 <p align="center">
