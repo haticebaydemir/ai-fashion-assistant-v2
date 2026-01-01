@@ -1,0 +1,33 @@
+{
+  "total_products": 44417,
+  "total_attributes": 307720,
+  "avg_attributes_per_product": 6.9279780264313215,
+  "coverage_pct": 95.43192921629105,
+  "n_categories": 10,
+  "threshold": 0.15,
+  "avg_confidence": 0.19274684564789993,
+  "category_counts": {
+    "formality": 41759,
+    "style": 39286,
+    "occasion": 38854,
+    "length": 32703,
+    "fit": 30255,
+    "material_appearance": 28549,
+    "neckline": 28090,
+    "pattern": 26452,
+    "sleeve": 22186,
+    "season": 19586
+  },
+  "top_values": {
+    "minimalist style": 30274,
+    "casual style": 18173,
+    "regular fit": 14824,
+    "loose fitting": 13805,
+    "sports wear": 13415,
+    "cotton-like": 13204,
+    "solid color": 12831,
+    "short sleeve": 12029,
+    "sporty style": 11385,
+    "ankle length": 11022
+  }
+}
