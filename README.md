@@ -19,8 +19,8 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 🔍 **51.1% Recall@10** - Effective retrieval from large catalog
 - 📊 **104 diverse test queries** - Comprehensive bilingual evaluation (v2.1+)
 - 🎨 **307K visual attributes** - CLIP zero-shot extraction (v2.1+)
+- 🤖 **0.714 RAG score** - Production-ready retrieval-augmented generation (v2.2+)
 - 🚀 **Production-ready** - Complete deployment pipeline included
-
 ---
 
 ## 🗺️ Development Roadmap
@@ -34,7 +34,7 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 30+ research notebooks
 - **[See v2.0-baseline/README.md](./v2.0-baseline/README.md)**
 
-### ✅ v2.1: Core ML + Visual Attributes (Week 1-2, January 1-2, 2026)
+### ✅ v2.1: Core ML + Visual Attributes (January 1-2, 2026)
 - **Status:** COMPLETE
 - Learned fusion optimization (α=0.7)
 - Visual attribute extraction (307K attributes, 10 categories)
@@ -43,7 +43,7 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - Baseline comparisons (7 methods, RRF evaluation)
 - **[See v2.1-core-ml-plus/README.md](./v2.1-core-ml-plus/README.md)**
 
-### ✅ v2.2: RAG Pipeline (Week 3, January 3, 2026)
+### ✅ v2.2: RAG Pipeline (January 3, 2026)
 - **Status:** COMPLETE
 - Production-ready RAG (Retrieval-Augmented Generation)
 - 3 professional notebooks (fundamentals, production, evaluation)
@@ -274,7 +274,7 @@ v2.2-rag-langchain/
 
 ## 🎯 Performance Metrics
 
-### v2.0 Baseline (December 2024)
+### v2.0 Baseline (December 2025)
 
 Evaluated on **22 diverse test queries** covering specific items, general categories, and attribute-based searches.
 
@@ -288,7 +288,7 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 | **Precision@5** | 98.18% | 98.21% | +0.03pp |
 | **MRR** | 100% | 100% | Perfect first-rank |
 
-### v2.1 Enhancements (January 2025)
+### v2.1 Enhancements (January 2026)
 
 **Visual Attributes:**
 - 307,720 attributes extracted
@@ -307,6 +307,34 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - 7 categories (simple, attribute, occasion, style, complex, seasonal, budget)
 - Generated via GROQ Llama-3.3-70B with validation
 
+### v2.2 RAG Pipeline (January 2026)
+
+**RAG System Evaluation (30 queries, 3 categories):**
+- Average retrieval score: 0.714
+- Response time: 0.89s per query
+- Score range: 0.554 - 0.841
+- Standard deviation: 0.079
+
+**Performance by Category:**
+- **Simple items** (e.g., "pink dress", "white sneakers"): 0.758 ⭐
+- Specific needs (e.g., "running shoes with support"): 0.731
+- Occasion-based (e.g., "outfit for job interview"): 0.653
+
+**Top Performing Queries:**
+1. Pink dress (0.841)
+2. White sneakers (0.838)
+3. Stylish laptop bag (0.834)
+
+**Most Challenging Queries:**
+1. Outfit for job interview (0.554)
+2. Business casual for office (0.596)
+3. Casual brunch look (0.597)
+
+**Technical Details:**
+- GROQ LLM: Llama-3.3-70B-Versatile
+- Vector search: FAISS IndexFlatIP
+- Cache hit rate: Configurable
+- Framework: Custom implementation (no LangChain)
 ---
 
 ## 🔬 Technical Implementation
@@ -355,6 +383,12 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - Attribute-based matching explanations
 - Natural language generation for search results
 
+**RAG Pipeline (v2.2+):**
+- Retrieval: FAISS vector search (44,417 products, <100ms)
+- Augmentation: Context injection into LLM prompts
+- Generation: GROQ Llama-3.3-70B (0.89s avg response)
+- Architecture: Three-stage pipeline (retrieve → augment → generate)
+- Implementation: Framework-agnostic (4 core dependencies)
 ---
 
 ## 🚀 Quick Start
@@ -405,7 +439,7 @@ jupyter notebook
 | **Vector Search** | FAISS | 1.7.2 | Similarity search |
 | **Ranking** | LightGBM | 4.0.0 | Gradient boosting |
 | **Personalization** | implicit | 0.7.2 | Collaborative filtering (ALS) |
-| **LLM (v2.1+)** | GROQ | 0.4.0 | Query generation |
+| **LLM (v2.1+)** | GROQ | 0.4.0 | Query generation, RAG |
 | **Backend API** | FastAPI | 0.109.0 | REST API server |
 | **Frontend** | Streamlit | 1.28.0 | Web interface |
 | **Deployment** | Docker | 24.0+ | Containerization |
@@ -454,7 +488,7 @@ The project was developed in 10 phases over 4 months:
 | Version | Focus | Timeline | Status |
 |---------|-------|----------|--------|
 | **v2.1** | Core ML + Visual Attributes | Week 1-2 (Jan 1-2) | ✅ Complete |
-| **v2.2** | RAG + LangChain | Week 3-4 | 🔄 In Development |
+| **v2.2** | RAG Pipeline | Week 3 (Jan 3) | ✅ Complete |
 | **v2.3** | AI Agents | Week 5 | 📅 Planned |
 | **v2.4** | User Study + Paper | Week 6-7 | 📅 Planned |
 
@@ -489,19 +523,27 @@ The project was developed in 10 phases over 4 months:
    - 10 semantic categories with 95.4% product coverage
    - Enables fine-grained attribute-aware search
 
-3. **Comprehensive Evaluation Framework**
+3. **Production RAG Pipeline (v2.2)**
+   - Framework-agnostic RAG implementation for fashion search
+   - 0.714 average retrieval score on 30 diverse queries
+   - Sub-second response times (0.89s average)
+   - Production-ready FashionRAGPipeline class
+   - Response caching and batch processing capabilities
+   - Three professional notebooks (62 cells total)
+    
+4. **Comprehensive Evaluation Framework**
    - Rigorous evaluation on 104 diverse bilingual queries
    - 7 baseline method comparisons with RRF consensus ground truth
    - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
    - Category-wise performance breakdown
 
-4. **Production-Ready Implementation**
+5. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
    - Explainability system for transparent search results
 
-5. **Open Source Release**
+6. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
@@ -570,7 +612,7 @@ We gratefully acknowledge:
 
 <p align="center">
   <strong>TÜBİTAK 2209-A Undergraduate Research Project</strong><br>
-  September 2024 - February 2025<br>
+  September 2025 - February 2026<br>
 </p>
 
 <p align="center">
