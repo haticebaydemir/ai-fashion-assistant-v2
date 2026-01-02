@@ -247,17 +247,6 @@ print(f"Cache hit rate: {stats['cache_hit_rate']:.1%}")
 
 ---
 
-## Future Enhancements
-
-- [ ] Hybrid search (vector + BM25)
-- [ ] Query expansion with LLM
-- [ ] Multi-turn conversations
-- [ ] User feedback integration
-- [ ] A/B testing framework
-- [ ] LangChain integration (optional)
-
----
-
 ## Evaluation Methodology
 
 **Test Set Design:**
@@ -324,25 +313,13 @@ All notebooks include:
 ---
 
 ## Author
-
 **Hatice Baydemir**  
-Computer Engineering Student  
 Karamanoğlu Mehmetbey University
 
 **TÜBİTAK 2209-A Project**  
 Advisor: İlya Kuş
 
----
 
-## Citation
-```bibtex
-@software{baydemir2026fashionrag,
-  author = {Baydemir, Hatice},
-  title = {Fashion RAG: Production-Ready Retrieval-Augmented Generation for E-commerce},
-  year = {2026},
-  url = {https://github.com/haticebaydemir/ai-fashion-assistant-v2}
-}
-```
 
 ---
 
