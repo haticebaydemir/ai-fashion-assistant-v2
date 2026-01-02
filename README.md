@@ -32,6 +32,7 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 97.4% NDCG@10 baseline performance
 - Production deployment pipeline
 - 30+ research notebooks
+- **[See v2.0-baseline/README.md](./v2.0-baseline/README.md)**
 
 ### ✅ v2.1: Core ML + Visual Attributes (Week 1-2, January 1-2, 2026)
 - **Status:** COMPLETE
