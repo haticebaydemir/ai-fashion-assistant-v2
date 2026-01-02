@@ -34,7 +34,7 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 30+ research notebooks
 - **[See v2.0-baseline/README.md](./v2.0-baseline/README.md)**
 
-### ✅ v2.1: Core ML + Visual Attributes (January 1-2, 2026)
+### ✅ v2.1: Core ML + Visual Attributes (January 1, 2026)
 - **Status:** COMPLETE
 - Learned fusion optimization (α=0.7)
 - Visual attribute extraction (307K attributes, 10 categories)
@@ -43,7 +43,7 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - Baseline comparisons (7 methods, RRF evaluation)
 - **[See v2.1-core-ml-plus/README.md](./v2.1-core-ml-plus/README.md)**
 
-### ✅ v2.2: RAG Pipeline (January 3, 2026)
+### ✅ v2.2: RAG Pipeline (January 2, 2026)
 - **Status:** COMPLETE
 - Production-ready RAG (Retrieval-Augmented Generation)
 - 3 professional notebooks (fundamentals, production, evaluation)
@@ -606,7 +606,7 @@ We gratefully acknowledge:
 - **Maintenance:** Ongoing
 - **Documentation:** Comprehensive
 
-**Last Updated:** January 3, 2026
+**Last Updated:** January 2, 2026
 
 ---
 
