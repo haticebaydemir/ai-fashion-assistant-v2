@@ -1,0 +1,6 @@
+{
+  "encoder_model": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "llm_model": "llama-3.3-70b-versatile",
+  "temperature": 0.1,
+  "max_tokens": 500
+}

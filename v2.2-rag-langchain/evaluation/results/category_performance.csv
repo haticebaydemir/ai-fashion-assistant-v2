@@ -1,0 +1,6 @@
+,top_score,top_score,top_score,top_score,response_time,response_time
+,mean,std,min,max,mean,median
+category,,,,,,
+occasion_based,0.653,0.064,0.554,0.738,0.821,0.801
+simple_items,0.758,0.078,0.628,0.841,1.183,0.876
+specific_needs,0.731,0.057,0.627,0.834,0.677,0.652

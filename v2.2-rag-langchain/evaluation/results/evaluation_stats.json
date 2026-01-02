@@ -1,0 +1,9 @@
+{
+  "total_queries": 30,
+  "avg_top_score": 0.7142041226228079,
+  "min_score": 0.553821325302124,
+  "max_score": 0.8413728475570679,
+  "std_score": 0.07880746200661293,
+  "avg_response_time": 0.893786613146464,
+  "median_response_time": 0.7709695100784302
+}

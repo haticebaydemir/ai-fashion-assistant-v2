@@ -1,0 +1,132 @@
+{
+  "blue summer dress_5": {
+    "query": "blue summer dress",
+    "answer": "Based on your query for a \"blue summer dress\", I would recommend the following products:\n\n1. Mineral Blue Dress - A perfect choice for summer, this dress is available in a beautiful blue color and is designed specifically for the summer season.\n2. 109F Blue A-Line Dress - This dress is a great option for a blue summer dress, with its A-Line design and vibrant blue color, it's perfect for hot summer days.\n3. AND Women Blue Dress - This dress is a stylish and comfortable choice for summer, with its blue color and lightweight design, it's ideal for outdoor events and everyday wear.\n4. Elle Women Blue Dress - This dress is a great choice for a blue summer dress, with its elegant design and beautiful blue color, it's perfect for special occasions and summer gatherings.\n\nAll of these dresses are from our women's apparel collection and are suitable for the summer season. If you're looking for a specific style, please let me know and I can provide more tailored recommendations.",
+    "retrieved_products": [
+      "Mineral Blue Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Blue. \nGender: Women. \nSeason: Summer.",
+      "Mineral Blue Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Blue. \nGender: Women. \nSeason: Summer.",
+      "109F Blue A-Line Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Blue. \nGender: Women. \nSeason: Summer.",
+      "AND Women Blue Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Blue. \nGender: Women. \nSeason: Summer.",
+      "Elle Women Blue Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Blue. \nGender: Women. \nSeason: Summer."
+    ],
+    "scores": [
+      0.8889254927635193,
+      0.8889254927635193,
+      0.8776575326919556,
+      0.8454186916351318,
+      0.8397114276885986
+    ],
+    "indices": [
+      26308,
+      5435,
+      852,
+      38106,
+      37168
+    ],
+    "timestamp": "2026-01-02T15:14:17.859133"
+  },
+  "casual shoes for men_5": {
+    "query": "casual shoes for men",
+    "answer": "Based on your query for casual shoes for men, I would recommend the following products:\n\n1. iD Men's Casual Leather Brown Shoe: A stylish and comfortable option for summer, made from leather and available in brown color.\n2. Fila Men's Basic Low Black Shoe: A classic and versatile choice, suitable for summer and available in black color.\n3. ADIDAS Men's Natural Brown Shoe: Although the name mentions brown, this shoe is actually available in black color, making it a great option for those looking for a sleek and sporty casual shoe for summer.\n\nThese options cater to different tastes and preferences, and all are suitable for casual wear during the summer season.",
+    "retrieved_products": [
+      "iD Men's Casual Leather Brown Shoe. \nCategory: Footwear. \nType: Casual Shoes. \nColor: Brown. \nGender: Men. \nSeason: Summer.",
+      "Fila Men's Basic Low Black Shoe. \nCategory: Footwear. \nType: Casual Shoes. \nColor: Black. \nGender: Men. \nSeason: Summer.",
+      "Numero Uno Men's Casual Black Leatherette Shoe. \nCategory: Footwear. \nType: Casual Shoes. \nColor: Blue. \nGender: Men. \nSeason: Fall.",
+      "ADIDAS Men's Natural Brown Shoe. \nCategory: Footwear. \nType: Casual Shoes. \nColor: Black. \nGender: Men. \nSeason: Summer.",
+      "Numero Uno Men's Casual White Sneakers Shoe. \nCategory: Footwear. \nType: Casual Shoes. \nColor: White. \nGender: Men. \nSeason: Fall."
+    ],
+    "scores": [
+      0.8636337518692017,
+      0.8587633371353149,
+      0.8569033145904541,
+      0.8555172681808472,
+      0.8553877472877502
+    ],
+    "indices": [
+      36420,
+      23183,
+      38778,
+      43963,
+      29772
+    ],
+    "timestamp": "2026-01-02T15:14:18.623397"
+  },
+  "red lipstick_5": {
+    "query": "red lipstick",
+    "answer": "Based on your query for a red lipstick, I would recommend the following options:\n\n1. **Revlon True Red Colorburst Lipstick 090**: A classic red shade that's perfect for spring and suits most skin tones.\n2. **Deborah Atomic Red 09 Lipstick**: A vibrant and bold red color that's sure to make a statement.\n3. **ColorBar Diva Red She Said Lipstick DL002**: A beautiful, deep red shade that's great for everyday wear.\n\nAll of these options are high-quality lipsticks in a variety of red shades, so you can choose the one that best suits your personal style and preferences. If you're looking for a slightly darker red tone, you may also consider the **Revlon Crimson Colorburst Lipstick 095** or the **Deborah Atomic Red 12 Lipstick**.",
+    "retrieved_products": [
+      "Revlon True Red Colorburst Lipstick 090. \nCategory: Personal Care. \nType: Lipstick. \nColor: Red. \nGender: Women. \nSeason: Spring.",
+      "Deborah Atomic Red 09 Lipstick. \nCategory: Personal Care. \nType: Lipstick. \nColor: Red. \nGender: Women. \nSeason: Spring.",
+      "Deborah Atomic Red 12 Lipstick. \nCategory: Personal Care. \nType: Lipstick. \nColor: Red. \nGender: Women. \nSeason: Spring.",
+      "Revlon Crimson Colorburst Lipstick 095. \nCategory: Personal Care. \nType: Lipstick. \nColor: Red. \nGender: Women. \nSeason: Spring.",
+      "ColorBar Diva Red She Said Lipstick DL002. \nCategory: Personal Care. \nType: Lipstick. \nColor: Red. \nGender: Women. \nSeason: Spring."
+    ],
+    "scores": [
+      0.8288346529006958,
+      0.801962673664093,
+      0.7962483167648315,
+      0.7926954030990601,
+      0.7892324924468994
+    ],
+    "indices": [
+      2537,
+      17364,
+      43115,
+      39046,
+      16987
+    ],
+    "timestamp": "2026-01-02T15:14:19.340919"
+  },
+  "winter jacket_5": {
+    "query": "winter jacket",
+    "answer": "Based on your query for a \"winter jacket\", I would recommend the following products:\n\n1. Just Natural Men Black Jacket - This jacket is specifically designed for winter and is available in black color.\n2. Puma Men Frost HD Black Jackets - Although it's designed for fall, it can also be suitable for mild winter seasons.\n\nPlease note that the Puma jacket is more suitable for fall, but it can be a good option if you're looking for a lighter winter jacket. If you're looking for a more specific winter jacket, the Just Natural Men Black Jacket would be a better option.",
+    "retrieved_products": [
+      "Just Natural Men Black Jacket. \nCategory: Apparel. \nType: Jackets. \nColor: Black. \nGender: Men. \nSeason: Winter.",
+      "Fastrack Unisex Polyester Beige Belt. \nCategory: Accessories. \nType: Belts. \nColor: Beige. \nGender: Unisex. \nSeason: Winter.",
+      "Fastrack Unisex Polyester Black Belt. \nCategory: Accessories. \nType: Belts. \nColor: Black. \nGender: Unisex. \nSeason: Winter.",
+      "Ice Unisex Love Red Watch. \nCategory: Accessories. \nType: Watches. \nColor: Red. \nGender: Unisex. \nSeason: Winter.",
+      "Puma Men Frost HD Black Jackets. \nCategory: Apparel. \nType: Jackets. \nColor: Black. \nGender: Men. \nSeason: Fall."
+    ],
+    "scores": [
+      0.6721401214599609,
+      0.6401039361953735,
+      0.6399556398391724,
+      0.630495011806488,
+      0.6280133724212646
+    ],
+    "indices": [
+      11485,
+      30295,
+      29717,
+      14182,
+      7041
+    ],
+    "timestamp": "2026-01-02T15:14:20.043486"
+  },
+  "formal office wear_5": {
+    "query": "formal office wear",
+    "answer": "Based on your query for formal office wear, I would recommend the following products:\n\nFor Women: \n1. Avirate Black Formal Dress - This dress is perfect for formal office events and is suitable for the fall season.\n2. AND Women Solid Grey and Black Dress - This dress is a great option for formal office wear and can be paired with various accessories for a stylish look.\n3. Murcia Women Leather Office Grey Bag - This handbag is a great addition to any formal office outfit and can add a touch of sophistication to your overall look.\n\nFor Men: \n1. Status Quo Men Solid Grey Jackets - This jacket is a great option for formal office wear and can be paired with a dress shirt and trousers for a stylish and professional look.\n\nThese products are all high-quality, formal options that are suitable for office wear.",
+    "retrieved_products": [
+      "Status Quo Men Solid Grey Jackets. \nCategory: Apparel. \nType: Jackets. \nColor: Grey. \nGender: Men. \nSeason: Fall.",
+      "Avirate Black Formal Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Black. \nGender: Women. \nSeason: Fall.",
+      "AND Women Solid Grey and Black Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Grey. \nGender: Women. \nSeason: Fall.",
+      "Avirate Brown & Grey Check Dress. \nCategory: Apparel. \nType: Dresses. \nColor: Brown. \nGender: Women. \nSeason: Fall.",
+      "Murcia Women Leather Office Grey Bag. \nCategory: Accessories. \nType: Handbags. \nColor: Grey. \nGender: Women. \nSeason: Winter."
+    ],
+    "scores": [
+      0.5432441830635071,
+      0.5413877367973328,
+      0.523029088973999,
+      0.5216914415359497,
+      0.5154824256896973
+    ],
+    "indices": [
+      36991,
+      12517,
+      26697,
+      29263,
+      41212
+    ],
+    "timestamp": "2026-01-02T15:14:20.814237"
+  }
+}
