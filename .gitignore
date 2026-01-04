@@ -127,3 +127,8 @@ v2.3-ai-agents-langchain/data/chroma_db/
 v2.3-ai-agents-langchain/**/chroma_db/
 v2.3-ai-agents-langchain/**/*.sqlite3
 v2.3-ai-agents-langchain/**/*.bin
+
+# ignore generated chroma artifacts
+v2.3-ai-agents-langchain/data/chroma_db/
+v2.3-ai-agents-langchain/**/*.sqlite3
+v2.3-ai-agents-langchain/**/*.bin
