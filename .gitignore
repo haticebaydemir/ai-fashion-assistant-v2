@@ -121,3 +121,9 @@ indexes/*
 !docs/**/*.md
 !docs/**/*.png
 !docs/**/*.jpg
+
+# v2.3 - ignore generated chroma db / large artifacts
+v2.3-ai-agents-langchain/data/chroma_db/
+v2.3-ai-agents-langchain/**/chroma_db/
+v2.3-ai-agents-langchain/**/*.sqlite3
+v2.3-ai-agents-langchain/**/*.bin
