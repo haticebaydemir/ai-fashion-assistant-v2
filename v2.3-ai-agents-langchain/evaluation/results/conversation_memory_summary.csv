@@ -1,0 +1,6 @@
+scenario_id,name,turns,total_time,avg_time_per_turn,tools_used,context_refs,had_summary
+1,Product Search Refinement,3,3.6796414852142334,1.2265471617380779,3,2,False
+2,Product Exploration,3,2.763488531112671,0.9211628437042236,3,1,False
+3,Category Switching,3,1.7513048648834229,0.5837682882944742,2,1,False
+4,Comparison Request,3,2.11574649810791,0.7052488327026367,1,1,False
+5,Long Context,5,6.453561544418335,1.290712308883667,3,4,True

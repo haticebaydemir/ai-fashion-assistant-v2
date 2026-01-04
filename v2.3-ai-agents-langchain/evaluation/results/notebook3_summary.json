@@ -1,0 +1,82 @@
+{
+  "notebook": "03_conversation_memory",
+  "version": "v2.3",
+  "date": "2026-01-04",
+  "status": "complete",
+  "config": {
+    "max_memory_turns": 10,
+    "memory_window_tokens": 2000,
+    "summarize_threshold": 5,
+    "model": "llama-3.3-70b-versatile"
+  },
+  "evaluation": {
+    "total_scenarios": 5,
+    "total_turns": 17,
+    "avg_time_per_turn": 0.9454878870646158,
+    "total_tools_used": 12,
+    "context_references": 9,
+    "scenarios_with_summary": 1
+  },
+  "memory_performance": {
+    "avg_storage_efficiency": 92.0,
+    "max_turns_stored": 3,
+    "summarization_triggered": true
+  },
+  "llm_stats": {
+    "calls": 59,
+    "total_tokens": 29926
+  },
+  "scenarios": [
+    {
+      "scenario_id": 1,
+      "name": "Product Search Refinement",
+      "turns": 3,
+      "total_time": 3.6796414852142334,
+      "avg_time_per_turn": 1.2265471617380779,
+      "tools_used": 3,
+      "context_refs": 2,
+      "had_summary": false
+    },
+    {
+      "scenario_id": 2,
+      "name": "Product Exploration",
+      "turns": 3,
+      "total_time": 2.763488531112671,
+      "avg_time_per_turn": 0.9211628437042236,
+      "tools_used": 3,
+      "context_refs": 1,
+      "had_summary": false
+    },
+    {
+      "scenario_id": 3,
+      "name": "Category Switching",
+      "turns": 3,
+      "total_time": 1.7513048648834229,
+      "avg_time_per_turn": 0.5837682882944742,
+      "tools_used": 2,
+      "context_refs": 1,
+      "had_summary": false
+    },
+    {
+      "scenario_id": 4,
+      "name": "Comparison Request",
+      "turns": 3,
+      "total_time": 2.11574649810791,
+      "avg_time_per_turn": 0.7052488327026367,
+      "tools_used": 1,
+      "context_refs": 1,
+      "had_summary": false
+    },
+    {
+      "scenario_id": 5,
+      "name": "Long Context",
+      "turns": 5,
+      "total_time": 6.453561544418335,
+      "avg_time_per_turn": 1.290712308883667,
+      "tools_used": 3,
+      "context_refs": 4,
+      "had_summary": true
+    }
+  ],
+  "next_step": "Notebook 4: Final agent evaluation and system integration"
+}
