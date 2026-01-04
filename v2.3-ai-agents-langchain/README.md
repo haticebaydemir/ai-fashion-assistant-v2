@@ -1,7 +1,7 @@
 # v2.3: AI Agents + LangChain Integration
 
 **Status:** ✅ COMPLETE  
-**Date:** January 2-4, 2026  
+**Date:** January 3-4, 2026  
 **Focus:** Conversational AI agents with tool calling and memory
 
 ---
@@ -451,7 +451,7 @@ All notebooks:
 **Student:** Hatice Baydemir  
 **Advisor:** İlya Kuş  
 **Institution:** Karamanoğlu Mehmetbey University  
-**Duration:** January 2-4, 2026 (3 days)
+**Duration:** January 3-4, 2026 (2 days)
 
 **Contributions:**
 - Complete conversational AI agent system
@@ -461,16 +461,7 @@ All notebooks:
 
 ---
 
-## Citation
-```bibtex
-@software{baydemir2026fashion_v23,
-  author = {Baydemir, Hatice},
-  title = {AI Fashion Assistant v2.3: AI Agents with LangChain},
-  year = {2026},
-  institution = {Karamanoğlu Mehmetbey University},
-  program = {TÜBİTAK 2209-A}
-}
-```
+
 
 ---
 
@@ -482,4 +473,4 @@ All notebooks:
 
 **Progress:** v2.0 → v2.1 → v2.2 → v2.3 ✅ (75% → 100%)
 
-**Next:** v2.4 (User Study - Optional)
+
