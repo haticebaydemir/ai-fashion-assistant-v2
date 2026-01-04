@@ -20,6 +20,7 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 📊 **104 diverse test queries** - Comprehensive bilingual evaluation (v2.1+)
 - 🎨 **307K visual attributes** - CLIP zero-shot extraction (v2.1+)
 - 🤖 **0.714 RAG score** - Production-ready retrieval-augmented generation (v2.2+)
+- 🤝 **100% tool usage** - Conversational AI agents with memory (v2.3+)
 - 🚀 **Production-ready** - Complete deployment pipeline included
 ---
 
@@ -52,11 +53,15 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - Framework-agnostic implementation (no LangChain dependency)
 - **[See v2.2-rag-langchain/README.md](./v2.2-rag-langchain/README.md)**
 
-### 📅 v2.3: AI Agents (Week 4-5)
-- Conversational AI agents
-- Multi-turn dialogue management
-- Tool-using capabilities
-- **Status:** Planned
+### ✅ v2.3: AI Agents + LangChain (January 3-4, 2026)
+- **Status:** COMPLETE
+- Conversational AI agent system with ReAct reasoning
+- 3 specialized tools (SearchProducts, RecommendSimilar, GetProductDetails)
+- Conversation memory (10-turn sliding window, auto-summarization)
+- Multi-turn dialogue support (5 scenarios, 15 turns tested)
+- Complete LangChain integration (4 professional notebooks, 82 cells)
+- 100% success rate, 100% tool usage, 2.6s avg response time
+- **[See v2.3-ai-agents-langchain/README.md](./v2.3-ai-agents-langchain/README.md)**
 
 ### 📅 v2.4: User Study + Paper (Week 6-7)
 - User study (20-25 participants)
@@ -251,7 +256,57 @@ v2.2-rag-langchain/
 **📖 [See v2.2-rag-langchain/README.md for detailed documentation](./v2.2-rag-langchain/README.md)**
 
 ---
+### ✅ [v2.3-ai-agents-langchain/](./v2.3-ai-agents-langchain/) - AI Agents System
 
+**Status:** Complete (January 2-4, 2026)
+
+Conversational AI agent with tool calling and memory:
+```
+v2.3-ai-agents-langchain/
+├── notebooks/
+│   ├── 01_langchain_rag_comparison.ipynb    # LangChain vs Custom RAG (22 cells)
+│   ├── 02_agent_fundamentals.ipynb          # ReAct agent + tools (20 cells)
+│   ├── 03_conversation_memory.ipynb         # Memory system (20 cells)
+│   └── 04_final_evaluation.ipynb            # Complete evaluation (20 cells)
+│
+├── evaluation/
+│   └── results/
+│       ├── langchain_rag_results.csv
+│       ├── rag_comparison.png
+│       ├── agent_fundamentals_results.csv
+│       ├── agent_fundamentals_analysis.png
+│       ├── conversation_memory_results.json
+│       ├── conversation_memory_summary.csv
+│       ├── conversation_memory_analysis.png
+│       ├── final_evaluation_results.csv
+│       ├── final_evaluation_complete.png
+│       ├── notebook1_summary.json
+│       ├── notebook2_summary.json
+│       ├── notebook3_summary.json
+│       └── v2.3_final_summary.json
+│
+└── README.md
+```
+
+**Key Features:**
+- ✅ Complete agent system (ReAct reasoning loop)
+- ✅ 3 specialized tools (vector search, recommendations, details)
+- ✅ LangChain integration (0.1.20)
+- ✅ Conversation memory (10-turn sliding window)
+- ✅ Multi-turn dialogue (5 scenarios tested)
+- ✅ 100% success rate, 100% tool usage
+- ✅ Production-ready agent architecture
+
+**Performance:**
+- Success rate: 100%
+- Avg response time: 2.6s
+- Tool usage rate: 100%
+- Memory efficiency: 92%
+- Production readiness: 92% (11/12 checks)
+
+**📖 [See v2.3-ai-agents-langchain/README.md for detailed documentation](./v2.3-ai-agents-langchain/README.md)**
+
+---
 ## 📊 Dataset
 
 **Source:** [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
@@ -335,6 +390,49 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - Vector search: FAISS IndexFlatIP
 - Cache hit rate: Configurable
 - Framework: Custom implementation (no LangChain)
+
+### v2.3 AI Agents + LangChain (January 3-4, 2026)
+
+**Agent System Evaluation (20 single queries + 5 multi-turn conversations):**
+
+**Overall Performance:**
+- Success rate: 100% (all queries completed)
+- Avg response time: 2.6s per query
+- Tool usage rate: 100% (appropriate tool selection)
+- LLM calls: 40
+- Total tokens: 22,412
+
+**Single Query Breakdown (20 queries):**
+- Simple searches (5): 100% success, 2.1s avg
+- Contextual queries (5): 100% success, 2.8s avg
+- Specific needs (5): 100% success, 2.5s avg
+- Complex requests (5): 100% success, 3.0s avg
+
+**Multi-Turn Conversations (5 scenarios):**
+- Total conversation turns: 15
+- Avg time per turn: 0.95s
+- Context references detected: 9
+- Memory storage efficiency: 92%
+
+**Production Readiness:**
+- Checks passed: 11/12 (92%)
+- Performance: ✓ (100% success)
+- Functionality: ✓ (tools + memory working)
+- Code quality: ✓ (modular, documented)
+- Monitoring: ✓ (LLM usage tracked)
+
+**Key Achievements:**
+- ✓ Complete conversational AI agent system
+- ✓ ReAct reasoning with 3 specialized tools
+- ✓ Conversation memory (10-turn sliding window)
+- ✓ Multi-turn dialogue with context awareness
+- ✓ LangChain framework integration
+- ✓ 100% tool usage demonstrates proper agent functionality
+
+**Trade-offs vs v2.2:**
+- Response time: 2.6s (vs 0.89s in v2.2)
+- Capabilities: Conversational + multi-turn + tools
+- Complexity: Higher but justified for agent features
 ---
 
 ## 🔬 Technical Implementation
@@ -389,6 +487,15 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - Generation: GROQ Llama-3.3-70B (0.89s avg response)
 - Architecture: Three-stage pipeline (retrieve → augment → generate)
 - Implementation: Framework-agnostic (4 core dependencies)
+
+**AI Agent System (v2.3+):**
+- Agent architecture: ReAct (Reasoning + Acting)
+- Tools: 3 specialized functions (search, recommend, details)
+- Memory: 10-turn sliding window with auto-summarization
+- Framework: LangChain 0.1.20
+- LLM: GROQ Llama-3.3-70B (same as v2.2)
+- Reasoning: Thought → Action → Observation loop
+- Multi-turn: Context-aware conversation management
 ---
 
 ## 🚀 Quick Start
@@ -444,6 +551,8 @@ jupyter notebook
 | **Frontend** | Streamlit | 1.28.0 | Web interface |
 | **Deployment** | Docker | 24.0+ | Containerization |
 | **Monitoring** | Prometheus + Grafana | - | Metrics & dashboards |
+| **LangChain (v2.3+)** | langchain | 0.1.20 | Agent framework |
+| **Agent Tools** | langchain-core | 0.1.52 | Tool calling |
 
 ### Development Tools
 ```bash
@@ -489,7 +598,7 @@ The project was developed in 10 phases over 4 months:
 |---------|-------|----------|--------|
 | **v2.1** | Core ML + Visual Attributes | Week 1-2 (Jan 1-2) | ✅ Complete |
 | **v2.2** | RAG Pipeline | Week 3 (Jan 3) | ✅ Complete |
-| **v2.3** | AI Agents | Week 5 | 📅 Planned |
+| **v2.3** | AI Agents + LangChain | Week 4-5 (Jan 3-4) | ✅ Complete |
 | **v2.4** | User Study + Paper | Week 6-7 | 📅 Planned |
 
 **📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/) and version-specific READMEs.
@@ -530,20 +639,29 @@ The project was developed in 10 phases over 4 months:
    - Production-ready FashionRAGPipeline class
    - Response caching and batch processing capabilities
    - Three professional notebooks (62 cells total)
+
+4. **Conversational AI Agent System (v2.3)**
+   - Complete ReAct-style agent with tool calling
+   - 3 specialized tools for fashion search
+   - Conversation memory with 10-turn sliding window
+   - 100% success rate, 100% tool usage rate
+   - Multi-turn dialogue with context awareness
+   - LangChain framework integration (82 cells, 4 notebooks)
+   - Production-ready agent architecture (92% readiness)
     
-4. **Comprehensive Evaluation Framework**
+5. **Comprehensive Evaluation Framework**
    - Rigorous evaluation on 104 diverse bilingual queries
    - 7 baseline method comparisons with RRF consensus ground truth
    - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
    - Category-wise performance breakdown
 
-5. **Production-Ready Implementation**
+6. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
    - Explainability system for transparent search results
 
-6. **Open Source Release**
+7. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
@@ -602,11 +720,12 @@ We gratefully acknowledge:
 - **v2.0:** Stable baseline - Research complete ✅
 - **v2.1:** GenAI enhancements - Complete ✅
 - **v2.2:** RAG Pipeline - Complete ✅
-- **v2.3-v2.4:** Planned 📅
+- **v2.3:** AI Agents + LangChain - Complete ✅
+- **v2.4:** User Study - Planned 📅
 - **Maintenance:** Ongoing
 - **Documentation:** Comprehensive
 
-**Last Updated:** January 2, 2026
+**Last Updated:** January 4, 2026
 
 ---
 
