@@ -1,0 +1,18 @@
+{
+  "P789": {
+    "product_id": "P789",
+    "product_name": "Vintage Dress",
+    "category": "dress",
+    "added_at": "2026-01-05T11:31:24.396955",
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:31:24.448162"
+  },
+  "P890": {
+    "product_id": "P890",
+    "product_name": "Retro Earrings",
+    "category": "accessories",
+    "added_at": "2026-01-05T11:31:24.403693",
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:31:24.456950"
+  }
+}

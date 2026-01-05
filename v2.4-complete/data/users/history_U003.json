@@ -1,0 +1,50 @@
+[
+  {
+    "query": "test query for Carol",
+    "timestamp": "2026-01-04T20:39:52.489284",
+    "results_count": 10,
+    "top_result_id": null,
+    "response_time": 0.15,
+    "clicked_products": []
+  },
+  {
+    "query": "another search Carol",
+    "timestamp": "2026-01-04T20:39:52.496651",
+    "results_count": 8,
+    "top_result_id": null,
+    "response_time": 0.12,
+    "clicked_products": []
+  },
+  {
+    "query": "test query for Carol",
+    "timestamp": "2026-01-04T20:43:30.797745",
+    "results_count": 10,
+    "top_result_id": null,
+    "response_time": 0.15,
+    "clicked_products": []
+  },
+  {
+    "query": "another search Carol",
+    "timestamp": "2026-01-04T20:43:30.812438",
+    "results_count": 8,
+    "top_result_id": null,
+    "response_time": 0.12,
+    "clicked_products": []
+  },
+  {
+    "query": "vintage dress",
+    "timestamp": "2026-01-05T11:17:10.228800",
+    "results_count": 8,
+    "top_result_id": "P789",
+    "response_time": 0.15,
+    "clicked_products": []
+  },
+  {
+    "query": "bohemian accessories",
+    "timestamp": "2026-01-05T11:17:10.243308",
+    "results_count": 14,
+    "top_result_id": "P890",
+    "response_time": 0.17,
+    "clicked_products": []
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "query": "test query for Bob",
+    "timestamp": "2026-01-04T20:39:52.432095",
+    "results_count": 10,
+    "top_result_id": null,
+    "response_time": 0.15,
+    "clicked_products": []
+  },
+  {
+    "query": "another search Bob",
+    "timestamp": "2026-01-04T20:39:52.439288",
+    "results_count": 8,
+    "top_result_id": null,
+    "response_time": 0.12,
+    "clicked_products": []
+  },
+  {
+    "query": "test query for Bob",
+    "timestamp": "2026-01-04T20:43:30.754822",
+    "results_count": 10,
+    "top_result_id": null,
+    "response_time": 0.15,
+    "clicked_products": []
+  },
+  {
+    "query": "another search Bob",
+    "timestamp": "2026-01-04T20:43:30.764662",
+    "results_count": 8,
+    "top_result_id": null,
+    "response_time": 0.12,
+    "clicked_products": []
+  },
+  {
+    "query": "business suit",
+    "timestamp": "2026-01-05T11:17:09.876939",
+    "results_count": 12,
+    "top_result_id": "P567",
+    "response_time": 0.18,
+    "clicked_products": []
+  },
+  {
+    "query": "formal shoes",
+    "timestamp": "2026-01-05T11:17:09.883328",
+    "results_count": 20,
+    "top_result_id": "P234",
+    "response_time": 0.16,
+    "clicked_products": []
+  }
+]

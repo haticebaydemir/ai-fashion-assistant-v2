@@ -1,0 +1,7 @@
+{
+  "total_queries": 50,
+  "avg_response_time": 0.011923546791076661,
+  "min_response_time": 3.24249267578125e-05,
+  "max_response_time": 0.4964895248413086,
+  "p95_response_time": 0.004066216945648192
+}

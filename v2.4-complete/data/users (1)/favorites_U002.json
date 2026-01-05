@@ -1,0 +1,18 @@
+{
+  "P567": {
+    "product_id": "P567",
+    "product_name": "Black Suit",
+    "category": "suit",
+    "added_at": "2026-01-05T11:31:24.364632",
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:31:24.437791"
+  },
+  "P234": {
+    "product_id": "P234",
+    "product_name": "Navy Shirt",
+    "category": "shirt",
+    "added_at": "2026-01-05T11:31:24.386803",
+    "view_count": 0,
+    "last_viewed": null
+  }
+}

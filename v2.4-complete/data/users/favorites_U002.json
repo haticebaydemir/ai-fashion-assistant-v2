@@ -1,0 +1,28 @@
+{
+  "P002": {
+    "product_id": "P002",
+    "product_name": "Product for Bob",
+    "product_category": "Test",
+    "added_at": "2026-01-04T20:39:52.449768",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 0,
+    "last_viewed": null,
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P567": {
+    "product_id": "P567",
+    "product_name": "Business Suit",
+    "product_category": "Suit",
+    "added_at": "2026-01-05T11:17:10.958871",
+    "notes": null,
+    "price_at_favorite": 899.99,
+    "brand": null,
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:17:11.313341",
+    "purchased": true,
+    "purchase_date": "2026-01-05T11:17:11.329053"
+  }
+}

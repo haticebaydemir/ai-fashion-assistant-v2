@@ -1,0 +1,16 @@
+[
+  {
+    "query": "vintage dress",
+    "timestamp": "2026-01-05T11:31:24.311936",
+    "results_count": 8,
+    "top_result_id": "P789",
+    "response_time": 0.15
+  },
+  {
+    "query": "retro accessories",
+    "timestamp": "2026-01-05T11:31:24.321884",
+    "results_count": 14,
+    "top_result_id": "P890",
+    "response_time": 0.17
+  }
+]

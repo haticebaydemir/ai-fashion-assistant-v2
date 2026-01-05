@@ -1,0 +1,26 @@
+{
+  "P001": {
+    "product_id": "P001",
+    "product_name": "Blue Summer Dress",
+    "category": "dress",
+    "added_at": "2026-01-05T11:31:24.342934",
+    "view_count": 2,
+    "last_viewed": "2026-01-05T11:31:24.424564"
+  },
+  "P045": {
+    "product_id": "P045",
+    "product_name": "White Sneakers",
+    "category": "shoes",
+    "added_at": "2026-01-05T11:31:24.349370",
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:31:24.430873"
+  },
+  "P123": {
+    "product_id": "P123",
+    "product_name": "Gray Jacket",
+    "category": "jacket",
+    "added_at": "2026-01-05T11:31:24.355840",
+    "view_count": 0,
+    "last_viewed": null
+  }
+}

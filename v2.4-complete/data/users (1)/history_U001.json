@@ -1,0 +1,23 @@
+[
+  {
+    "query": "blue dress",
+    "timestamp": "2026-01-05T11:31:24.265534",
+    "results_count": 15,
+    "top_result_id": "P001",
+    "response_time": 0.23
+  },
+  {
+    "query": "white sneakers",
+    "timestamp": "2026-01-05T11:31:24.272127",
+    "results_count": 23,
+    "top_result_id": "P045",
+    "response_time": 0.19
+  },
+  {
+    "query": "gray jacket",
+    "timestamp": "2026-01-05T11:31:24.278925",
+    "results_count": 18,
+    "top_result_id": "P123",
+    "response_time": 0.2
+  }
+]

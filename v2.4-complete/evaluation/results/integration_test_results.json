@@ -1,0 +1,44 @@
+[
+  {
+    "user_id": "U001",
+    "query": "Show me recommendations",
+    "intent": "recommendations",
+    "personalized": true,
+    "results_count": 10
+  },
+  {
+    "user_id": "U001",
+    "query": "I need a blue dress",
+    "intent": "search",
+    "personalized": true,
+    "results_count": 10
+  },
+  {
+    "user_id": "U002",
+    "query": "What are my favorites?",
+    "intent": "favorites",
+    "personalized": false,
+    "results_count": 2
+  },
+  {
+    "user_id": "U002",
+    "query": "Find me a formal suit",
+    "intent": "search",
+    "personalized": true,
+    "results_count": 10
+  },
+  {
+    "user_id": "U003",
+    "query": "Recommend something for me",
+    "intent": "recommendations",
+    "personalized": true,
+    "results_count": 10
+  },
+  {
+    "user_id": "U003",
+    "query": "Show me vintage dresses",
+    "intent": "search",
+    "personalized": true,
+    "results_count": 0
+  }
+]

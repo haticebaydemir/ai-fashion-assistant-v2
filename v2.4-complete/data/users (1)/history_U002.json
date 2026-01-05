@@ -1,0 +1,16 @@
+[
+  {
+    "query": "black suit",
+    "timestamp": "2026-01-05T11:31:24.289962",
+    "results_count": 12,
+    "top_result_id": "P567",
+    "response_time": 0.18
+  },
+  {
+    "query": "navy shirt",
+    "timestamp": "2026-01-05T11:31:24.300437",
+    "results_count": 20,
+    "top_result_id": "P234",
+    "response_time": 0.16
+  }
+]

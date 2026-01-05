@@ -1,0 +1,67 @@
+{
+  "U001": {
+    "user_id": "U001",
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "preferences": {
+      "style": [
+        "casual",
+        "sporty"
+      ],
+      "size": "S",
+      "colors": [
+        "blue",
+        "white",
+        "gray"
+      ],
+      "categories": []
+    },
+    "created_at": "2026-01-05T11:31:24.149420",
+    "last_active": "2026-01-05T11:31:24.472045",
+    "total_searches": 3,
+    "total_favorites": 3
+  },
+  "U002": {
+    "user_id": "U002",
+    "name": "Bob Smith",
+    "email": "bob@example.com",
+    "preferences": {
+      "style": [
+        "formal",
+        "elegant"
+      ],
+      "size": "L",
+      "colors": [
+        "black",
+        "navy",
+        "gray"
+      ],
+      "categories": []
+    },
+    "created_at": "2026-01-05T11:31:24.157516",
+    "last_active": "2026-01-05T11:31:24.483151",
+    "total_searches": 2,
+    "total_favorites": 2
+  },
+  "U003": {
+    "user_id": "U003",
+    "name": "Carol Williams",
+    "email": "carol@example.com",
+    "preferences": {
+      "style": [
+        "vintage"
+      ],
+      "size": "M",
+      "colors": [
+        "red",
+        "orange",
+        "yellow"
+      ],
+      "categories": []
+    },
+    "created_at": "2026-01-05T11:31:24.171359",
+    "last_active": "2026-01-05T11:31:24.497110",
+    "total_searches": 2,
+    "total_favorites": 2
+  }
+}

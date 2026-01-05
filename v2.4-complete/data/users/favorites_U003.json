@@ -1,0 +1,41 @@
+{
+  "P003": {
+    "product_id": "P003",
+    "product_name": "Product for Carol",
+    "product_category": "Test",
+    "added_at": "2026-01-04T20:39:52.522350",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 0,
+    "last_viewed": null,
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P789": {
+    "product_id": "P789",
+    "product_name": "Vintage Dress",
+    "product_category": "Dress",
+    "added_at": "2026-01-05T11:17:11.237241",
+    "notes": null,
+    "price_at_favorite": 45.0,
+    "brand": null,
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:17:11.342827",
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P890": {
+    "product_id": "P890",
+    "product_name": "Bohemian Earrings",
+    "product_category": "Accessories",
+    "added_at": "2026-01-05T11:17:11.243852",
+    "notes": null,
+    "price_at_favorite": 25.0,
+    "brand": null,
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:17:11.350018",
+    "purchased": false,
+    "purchase_date": null
+  }
+}

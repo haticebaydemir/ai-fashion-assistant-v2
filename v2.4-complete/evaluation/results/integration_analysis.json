@@ -1,0 +1,63 @@
+{
+  "users": 3,
+  "personalization_available": 3,
+  "avg_recommendations_per_user": 20.0,
+  "user_profiles": {
+    "U001": {
+      "name": "Alice Johnson",
+      "preferences": {
+        "style": [
+          "casual",
+          "sporty"
+        ],
+        "size": "S",
+        "colors": [
+          "blue",
+          "white",
+          "gray"
+        ],
+        "categories": []
+      },
+      "favorites_count": 3,
+      "search_history_count": 3,
+      "recommendations_count": 20
+    },
+    "U002": {
+      "name": "Bob Smith",
+      "preferences": {
+        "style": [
+          "formal",
+          "elegant"
+        ],
+        "size": "L",
+        "colors": [
+          "black",
+          "navy",
+          "gray"
+        ],
+        "categories": []
+      },
+      "favorites_count": 2,
+      "search_history_count": 2,
+      "recommendations_count": 20
+    },
+    "U003": {
+      "name": "Carol Williams",
+      "preferences": {
+        "style": [
+          "vintage"
+        ],
+        "size": "M",
+        "colors": [
+          "red",
+          "orange",
+          "yellow"
+        ],
+        "categories": []
+      },
+      "favorites_count": 2,
+      "search_history_count": 2,
+      "recommendations_count": 20
+    }
+  }
+}

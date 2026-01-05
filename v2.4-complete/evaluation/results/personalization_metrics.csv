@@ -1,0 +1,4 @@
+coverage,diversity,preference_match,user_id,name
+1.0,0.25,0.75,U001,Alice Johnson
+1.0,0.35,0.8,U002,Bob Smith
+1.0,0.3,0.75,U003,Carol Williams

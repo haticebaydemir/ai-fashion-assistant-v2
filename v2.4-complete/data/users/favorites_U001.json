@@ -1,0 +1,67 @@
+{
+  "P001": {
+    "product_id": "P001",
+    "product_name": "Blue Summer Dress",
+    "product_category": "Dress",
+    "added_at": "2026-01-04T20:39:52.317912",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 2,
+    "last_viewed": "2026-01-05T11:17:11.274144",
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P045": {
+    "product_id": "P045",
+    "product_name": "Nike Running Shoes",
+    "product_category": "Shoes",
+    "added_at": "2026-01-04T20:39:52.332085",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 1,
+    "last_viewed": "2026-01-05T11:17:11.286539",
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P123": {
+    "product_id": "P123",
+    "product_name": "Leather Jacket",
+    "product_category": "Jacket",
+    "added_at": "2026-01-04T20:39:52.342397",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 0,
+    "last_viewed": null,
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P234": {
+    "product_id": "P234",
+    "product_name": "White T-Shirt",
+    "product_category": "Shirt",
+    "added_at": "2026-01-04T20:39:52.354266",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 0,
+    "last_viewed": null,
+    "purchased": false,
+    "purchase_date": null
+  },
+  "P567": {
+    "product_id": "P567",
+    "product_name": "Black Jeans",
+    "product_category": "Pants",
+    "added_at": "2026-01-04T20:39:52.363578",
+    "notes": null,
+    "price_at_favorite": null,
+    "brand": null,
+    "view_count": 0,
+    "last_viewed": null,
+    "purchased": false,
+    "purchase_date": null
+  }
+}

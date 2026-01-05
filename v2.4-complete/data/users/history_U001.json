@@ -1,0 +1,98 @@
+[
+  {
+    "query": "blue dress",
+    "timestamp": "2026-01-04T20:39:52.141158",
+    "results_count": 15,
+    "top_result_id": "P001",
+    "response_time": 0.234,
+    "clicked_products": []
+  },
+  {
+    "query": "running shoes",
+    "timestamp": "2026-01-04T20:39:52.150918",
+    "results_count": 23,
+    "top_result_id": "P045",
+    "response_time": 0.189,
+    "clicked_products": []
+  },
+  {
+    "query": "summer jacket",
+    "timestamp": "2026-01-04T20:39:52.160501",
+    "results_count": 18,
+    "top_result_id": "P123",
+    "response_time": 0.201,
+    "clicked_products": []
+  },
+  {
+    "query": "black jeans",
+    "timestamp": "2026-01-04T20:39:52.171670",
+    "results_count": 12,
+    "top_result_id": "P567",
+    "response_time": 0.178,
+    "clicked_products": []
+  },
+  {
+    "query": "white t-shirt",
+    "timestamp": "2026-01-04T20:39:52.207020",
+    "results_count": 20,
+    "top_result_id": "P234",
+    "response_time": 0.156,
+    "clicked_products": []
+  },
+  {
+    "query": "blue dress",
+    "timestamp": "2026-01-04T20:43:30.558083",
+    "results_count": 15,
+    "top_result_id": "P001",
+    "response_time": 0.234,
+    "clicked_products": []
+  },
+  {
+    "query": "running shoes",
+    "timestamp": "2026-01-04T20:43:30.567818",
+    "results_count": 23,
+    "top_result_id": "P045",
+    "response_time": 0.189,
+    "clicked_products": []
+  },
+  {
+    "query": "summer jacket",
+    "timestamp": "2026-01-04T20:43:30.578511",
+    "results_count": 18,
+    "top_result_id": "P123",
+    "response_time": 0.201,
+    "clicked_products": []
+  },
+  {
+    "query": "black jeans",
+    "timestamp": "2026-01-04T20:43:30.609950",
+    "results_count": 12,
+    "top_result_id": "P567",
+    "response_time": 0.178,
+    "clicked_products": []
+  },
+  {
+    "query": "white t-shirt",
+    "timestamp": "2026-01-04T20:43:30.621796",
+    "results_count": 20,
+    "top_result_id": "P234",
+    "response_time": 0.156,
+    "clicked_products": []
+  },
+  {
+    "query": "sustainable dress",
+    "timestamp": "2026-01-05T11:17:09.588051",
+    "results_count": 15,
+    "top_result_id": "P001",
+    "response_time": 0.23,
+    "clicked_products": []
+  },
+  {
+    "query": "organic shoes",
+    "timestamp": "2026-01-05T11:17:09.596826",
+    "results_count": 23,
+    "top_result_id": "P045",
+    "response_time": 0.19,
+    "clicked_products": []
+  }
+]
