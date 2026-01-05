@@ -88,7 +88,7 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
                     ↓
 ┌─────────────────────────────────────────────────┐
 │      2. Multimodal Embedding                    │
-│    Text: mpnet (768d) + CLIP text (512d)       │
+│    Text: mpnet (768d) + CLIP text (512d)        │
 │    Image: CLIP vision (768d)                    │
 │    Visual Attributes: 10 categories (v2.1+)     │
 │    Combined Space: 1280-dimensional             │
@@ -98,7 +98,7 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
 │         3. Vector Retrieval (FAISS)             │
 │    IndexFlatIP • Cosine Similarity              │
 │    44,417 products • <10ms latency              │
-│    Learned Fusion: α=0.7 (v2.1+)               │
+│    Learned Fusion: α=0.7 (v2.1+)                │
 └─────────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────────┐
