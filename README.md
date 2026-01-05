@@ -21,6 +21,7 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 🎨 **307K visual attributes** - CLIP zero-shot extraction (v2.1+)
 - 🤖 **0.714 RAG score** - Production-ready retrieval-augmented generation (v2.2+)
 - 🤝 **100% tool usage** - Conversational AI agents with memory (v2.3+)
+- 👤 **76.7% preference match** - Content-based personalization system (v2.4+)
 - 🚀 **Production-ready** - Complete deployment pipeline included
 ---
 
@@ -63,11 +64,14 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 100% success rate, 100% tool usage, 2.6s avg response time
 - **[See v2.3-ai-agents-langchain/README.md](./v2.3-ai-agents-langchain/README.md)**
 
-### 📅 v2.4: User Study + Paper (Week 6-7)
-- User study (20-25 participants)
-- Academic paper finalization
-- Production deployment
-- **Status:** Planned
+### ✅ v2.4: User Features + Personalization (January 5, 2026)
+- **Status:** COMPLETE
+- Comprehensive user management (profiles, history, favorites)
+- Content-based personalization (3 strategies, 76.7% preference match)
+- Integrated agent system (intent-aware, 83.3% personalization rate)
+- Sub-12ms personalization latency (target: <50ms)
+- 100% personalization coverage across all users
+- **[See v2.4-complete/README.md](./v2.4-complete/README.md)**
 
 ---
 
@@ -306,7 +310,69 @@ v2.3-ai-agents-langchain/
 
 **📖 [See v2.3-ai-agents-langchain/README.md for detailed documentation](./v2.3-ai-agents-langchain/README.md)**
 
+### ✅ [v2.4-complete/](./v2.4-complete/) - User Features + Personalization
+
+**Status:** Complete (January 5, 2026)
+
+Comprehensive user management and personalization system:
+```
+v2.4-complete/
+├── notebooks/
+│   ├── 01_user_management_system.ipynb    # Profiles, history, favorites
+│   ├── 02_personalization_engine.ipynb    # Content-based recommendations
+│   ├── 03_system_integration.ipynb        # Integrated agent system
+│   └── 04_final_evaluation.ipynb          # Comprehensive evaluation
+│
+├── data/
+│   └── users/
+│       ├── users.json                     # User profiles (3 users)
+│       ├── history_U001.json              # Search history per user
+│       ├── history_U002.json
+│       ├── history_U003.json
+│       ├── favorites_U001.json            # Favorites per user
+│       ├── favorites_U002.json
+│       └── favorites_U003.json
+│
+├── evaluation/
+│   └── results/
+│       ├── personalization_metrics.csv    # Per-user metrics
+│       ├── recommendations_U001.csv       # User recommendations
+│       ├── recommendations_U002.csv
+│       ├── recommendations_U003.csv
+│       ├── integration_analysis.json      # System analysis
+│       ├── integration_performance.json   # Performance benchmarks
+│       ├── integration_test_results.json  # Test scenarios
+│       ├── v2.4_final_summary.json       # Complete summary
+│       ├── v2.4_key_metrics.csv          # Key metrics
+│       └── v2.4_evaluation_summary.png   # Visual dashboard
+│
+└── README.md
+```
+
+**Key Features:**
+- ✅ User profile management (style, size, color preferences)
+- ✅ Search history tracking with pattern analysis
+- ✅ Favorites management with engagement metrics
+- ✅ Content-based personalization (3 strategies)
+- ✅ Integrated agent system (intent-aware)
+- ✅ Sub-12ms personalization latency
+
+**Performance:**
+- Preference match: 76.7%
+- Personalization coverage: 100%
+- Personalization rate: 83.3%
+- Avg response time: 11.92ms (target: <50ms)
+- P95 response time: 4.07ms
+
+**Personalization Strategies:**
+- Similar to favorites (50% weight)
+- Based on search history (30% weight)
+- Preference matching (20% weight)
+
+**📖 [See v2.4-complete/README.md for detailed documentation](./v2.4-complete/README.md)**
+
 ---
+
 ## 📊 Dataset
 
 **Source:** [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
@@ -433,6 +499,42 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - Response time: 2.6s (vs 0.89s in v2.2)
 - Capabilities: Conversational + multi-turn + tools
 - Complexity: Higher but justified for agent features
+
+### v2.4 User Features + Personalization (January 5, 2026)
+
+**User Management System:**
+- Total users: 3 test profiles
+- Avg favorites/user: 2.3 items
+- Avg searches/user: 2.3 queries
+- Data files: 7 JSON files (users, history, favorites)
+
+**Personalization Engine:**
+- **Preference match:** 76.7% (alignment with user preferences)
+- **Coverage:** 100% (unique recommendations)
+- **Diversity:** 0.300 (category distribution)
+- Recommendations/user: 20 items
+
+**System Integration:**
+- **Avg response time:** 11.92ms ✓ (target: <50ms)
+- **P95 response time:** 4.07ms ✓ (target: <100ms)
+- **Personalization coverage:** 100% ✓
+- **Personalization rate:** 83.3% (5/6 queries personalized)
+
+**Test Users:**
+
+| User | Style | Colors | Favorites | Searches | Preference Match |
+|------|-------|--------|-----------|----------|------------------|
+| Alice | Casual, Sporty | Blue, White, Gray | 3 | 3 | 75.0% |
+| Bob | Formal, Elegant | Black, Navy, Gray | 2 | 2 | 80.0% |
+| Carol | Vintage | Red, Orange, Yellow | 2 | 2 | 75.0% |
+
+**Integration Test Scenarios (6 queries):**
+- Recommendations: 2 queries (100% personalized)
+- Search: 3 queries (100% personalized)
+- Favorites: 1 query (retrieval only)
+- **Overall personalization rate:** 83.3%
+
+**All performance targets met successfully.**
 ---
 
 ## 🔬 Technical Implementation
@@ -474,7 +576,10 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
    - Attribute match indicators
    - Historical popularity
    - **Result:** NDCG@10: 97.43%
-4. **Personalization (Optional):** ALS collaborative filtering with 64d user embeddings
+4. **Personalization (v2.4+):** Content-based filtering with user preferences
+   - Multi-strategy fusion (favorites, history, preferences)
+   - 76.7% preference match, <12ms latency
+   - 100% personalization coverage
 
 **Explainability (v2.1+):**
 - Fusion score decomposition (text vs image contribution)
@@ -496,6 +601,14 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - LLM: GROQ Llama-3.3-70B (same as v2.2)
 - Reasoning: Thought → Action → Observation loop
 - Multi-turn: Context-aware conversation management
+
+**User Management (v2.4+):**
+- Profile system: Style, size, color preferences
+- History tracking: Query patterns and engagement analysis
+- Favorites management: Product bookmarking with metrics
+- Personalization engine: Content-based recommendations
+- Intent recognition: Search, recommendations, favorites
+- Storage: Thread-safe JSON with concurrent access
 ---
 
 ## 🚀 Quick Start
@@ -545,7 +658,7 @@ jupyter notebook
 | **Deep Learning** | PyTorch | 2.0.1 | Model inference |
 | **Vector Search** | FAISS | 1.7.2 | Similarity search |
 | **Ranking** | LightGBM | 4.0.0 | Gradient boosting |
-| **Personalization** | implicit | 0.7.2 | Collaborative filtering (ALS) |
+| **Personalization (v2.4+)** | scikit-learn | 1.3+ | Content-based filtering |
 | **LLM (v2.1+)** | GROQ | 0.4.0 | Query generation, RAG |
 | **Backend API** | FastAPI | 0.109.0 | REST API server |
 | **Frontend** | Streamlit | 1.28.0 | Web interface |
@@ -599,7 +712,8 @@ The project was developed in 10 phases over 4 months:
 | **v2.1** | Core ML + Visual Attributes | Week 1-2 (Jan 1-2) | ✅ Complete |
 | **v2.2** | RAG Pipeline | Week 3 (Jan 3) | ✅ Complete |
 | **v2.3** | AI Agents + LangChain | Week 4-5 (Jan 3-4) | ✅ Complete |
-| **v2.4** | User Study + Paper | Week 6-7 | 📅 Planned |
+| **v2.4** | User Features + Personalization | Week 5 (Jan 5) | ✅ Complete |
+| **v2.5** | User Study + Paper | Week 6-7 | 📅 Planned |
 
 **📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/) and version-specific READMEs.
 
@@ -648,20 +762,29 @@ The project was developed in 10 phases over 4 months:
    - Multi-turn dialogue with context awareness
    - LangChain framework integration (82 cells, 4 notebooks)
    - Production-ready agent architecture (92% readiness)
-    
-5. **Comprehensive Evaluation Framework**
+
+5. **User Personalization System (v2.4)**
+   - Comprehensive user management infrastructure
+   - Multi-strategy content-based personalization (3 approaches)
+   - 76.7% preference matching accuracy
+   - Sub-12ms personalization latency (<50ms target)
+   - 100% personalization coverage across all users
+   - Intent-aware integrated agent (83.3% personalization rate)
+   - Profile, history, and favorites management
+        
+6. **Comprehensive Evaluation Framework**
    - Rigorous evaluation on 104 diverse bilingual queries
    - 7 baseline method comparisons with RRF consensus ground truth
    - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
    - Category-wise performance breakdown
 
-6. **Production-Ready Implementation**
+7. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
    - Explainability system for transparent search results
 
-7. **Open Source Release**
+8. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
@@ -721,11 +844,12 @@ We gratefully acknowledge:
 - **v2.1:** GenAI enhancements - Complete ✅
 - **v2.2:** RAG Pipeline - Complete ✅
 - **v2.3:** AI Agents + LangChain - Complete ✅
-- **v2.4:** User Study - Planned 📅
+- **v2.4:** User Features + Personalization - Complete ✅
+- **v2.5:** User Study - Planned 📅
 - **Maintenance:** Ongoing
 - **Documentation:** Comprehensive
 
-**Last Updated:** January 4, 2026
+**Last Updated:** January 5, 2026
 
 ---
 
