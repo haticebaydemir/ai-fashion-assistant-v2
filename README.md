@@ -22,6 +22,7 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 🤖 **0.714 RAG score** - Production-ready retrieval-augmented generation (v2.2+)
 - 🤝 **100% tool usage** - Conversational AI agents with memory (v2.3+)
 - 👤 **76.7% preference match** - Content-based personalization system (v2.4+)
+- 🖼️ **Image query support** - Multimodal RAG with visual awareness (v2.4.5+)
 - 🚀 **Production-ready** - Complete deployment pipeline included
 ---
 
@@ -73,6 +74,16 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 100% personalization coverage across all users
 - **[See v2.4-complete/README.md](./v2.4-complete/README.md)**
 
+### ✅ v2.4.5: Multimodal RAG (January 6-12, 2026)
+- **Status:** COMPLETE
+- Image query support (search with product images)
+- Multimodal fusion retrieval (CLIP text + image embeddings)
+- Visual-aware RAG responses (7.6 keywords per response)
+- Fast response time (0.64s avg, 28% faster than v2.2)
+- Attribute-based filtering (V2.1 integration, 307K features)
+- 6 comprehensive notebooks (architecture, processing, retrieval, RAG, evaluation, documentation)
+- **[See v2.4.5-multimodal-rag/README.md](./v2.4.5-multimodal-rag/README.md)**
+
 ---
 
 ## 🏗️ System Architecture
@@ -84,6 +95,7 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
 │    Intent Detection • Slot Extraction           │
 │    Multi-language Support (TR/EN)               │
 │    LLM-based Query Expansion (v2.1+)            │
+│    Image Query Support (v2.4.5+)                │
 └─────────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────────┐
@@ -99,6 +111,7 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
 │    IndexFlatIP • Cosine Similarity              │
 │    44,417 products • <10ms latency              │
 │    Learned Fusion: α=0.7 (v2.1+)                │
+│    Multimodal Fusion: Text + Image (v2.4.5+)    │
 └─────────────────────────────────────────────────┘
                     ↓
 ┌─────────────────────────────────────────────────┐
@@ -106,6 +119,7 @@ The system implements a four-stage pipeline optimized for fashion e-commerce:
 │    Feature Fusion • Attribute Awareness         │
 │    Personalization • Reranking                  │
 │    Natural Language Explanations (v2.1+)        │
+│    Visual-Aware RAG (v2.4.5+)                   │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -373,6 +387,60 @@ v2.4-complete/
 
 ---
 
+### ✅ [v2.4.5-multimodal-rag/](./v2.4.5-multimodal-rag/) - Multimodal RAG
+
+**Status:** Complete (January 6-12, 2026)
+
+Image query support and visual-aware RAG system:
+```
+v2.4.5-multimodal-rag/
+├── notebooks/
+│   ├── 01_multimodal_rag_architecture.ipynb
+│   ├── 02_image_query_processing.ipynb
+│   ├── 03_multimodal_retrieval.ipynb
+│   ├── 04_visual_aware_rag.ipynb
+│   ├── 05_evaluation_metrics.ipynb
+│   └── 06_final_documentation.ipynb
+│
+├── evaluation/
+│   └── results/
+│       ├── image_encoding_results.csv
+│       ├── attribute_extraction_results.csv
+│       ├── image_queries.csv
+│       ├── retrieval_comparison.json
+│       ├── strategy_overlap.csv
+│       ├── visual_rag_responses.json
+│       ├── rag_quality_metrics.json
+│       ├── performance_report.md
+│       ├── performance_visualization.png
+│       ├── v2.4.5_comprehensive_results.xlsx
+│       ├── final_summary.json
+│       └── project_completion_summary.json
+│
+├── README.md
+├── USER_STUDY_GUIDE.md
+└── PRESENTATION_OUTLINE.md
+```
+
+**Key Features:**
+- ✅ Image query support (search with product images)
+- ✅ CLIP-based multimodal retrieval (text + image fusion)
+- ✅ Visual-aware RAG (7.6 keywords per response)
+- ✅ Learned fusion strategy (α=0.7)
+- ✅ V2.1 attribute integration (307K visual features)
+- ✅ Fast response time (0.64s avg, 28% faster than v2.2)
+
+**Performance:**
+- Multimodal unique: 6.0 products
+- Text-image overlap: 0.4 products
+- Visual keywords: 7.6 per response
+- Response time: 0.642s avg
+- Visual keyword rate: 100%
+
+**📖 [See v2.4.5-multimodal-rag/README.md for detailed documentation](./v2.4.5-multimodal-rag/README.md)**
+
+---
+
 ## 📊 Dataset
 
 **Source:** [Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
@@ -535,6 +603,42 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - **Overall personalization rate:** 83.3%
 
 **All performance targets met successfully.**
+
+### v2.4.5 Multimodal RAG (January 6-12, 2026)
+
+**Multimodal Retrieval Evaluation (5 test queries):**
+
+**Retrieval Performance:**
+- Text-image overlap: 0.4 products avg
+- Multimodal unique: 6.0 products avg
+- Overlap rate: 4.0%
+- Fusion strategy: α=0.7 (70% text, 30% image)
+
+**RAG Performance:**
+- Avg response time: 0.642s ✓ (28% faster than v2.2)
+- Response length: ~496 characters
+- Visual keywords: 7.6 per response
+- Visual keyword rate: 100%
+
+**System Capabilities:**
+- Dataset: 44,417 products indexed
+- Attribute coverage: 95.4% (42,388 products)
+- Query modes: Text, Image, Multimodal
+- Visual awareness: Pattern, Style, Material integrated
+
+**Key Achievements:**
+- ✓ Image query support (search with product images)
+- ✓ CLIP-based multimodal fusion (text + image)
+- ✓ Visual-aware RAG responses
+- ✓ Fast response time (<1s target met)
+- ✓ V2.1 attribute integration (307K features)
+- ✓ Production-ready pipeline
+
+**Trade-offs vs v2.2:**
+- Response time: 0.64s (vs 0.89s in v2.2) - 28% improvement
+- Capabilities: Multimodal + visual awareness
+- Visual keywords: 7.6 (vs 0 in v2.2) - 100% improvement
+
 ---
 
 ## 🔬 Technical Implementation
@@ -548,16 +652,19 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - **Secondary:** OpenAI CLIP text encoder (512d)
   - Multimodal text-image alignment
 - **Combined:** Concatenated 1280-dimensional space
+- **v2.4.5:** CLIP text encoder (768d) for all 44K products
 
 **Image Encoding:**
 - **Model:** OpenAI CLIP ViT-Large/14 (768d) - upgraded in v2.1
 - **Preprocessing:** Center crop, normalize to ImageNet statistics
 - **Zero-shot Attributes:** 10 semantic categories via CLIP classification (v2.1+)
+- **v2.4.5:** Image query encoding for multimodal search
 
 **Fusion Strategy (v2.1+):**
 - **Learned weighting:** α=0.7 (70% text, 30% image)
 - **Rationale:** Fashion queries are primarily descriptive
 - **Optimization:** Empirically validated on 104 diverse queries
+- **v2.4.5:** Extended to image query fusion
 
 ### Search Infrastructure
 
@@ -566,6 +673,7 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - **Size:** 44,417 product embeddings
 - **Latency:** <10ms retrieval (p95)
 - **Storage:** Optimized for memory-mapped files
+- **v2.4.5:** Separate text and image FAISS indices
 
 **Ranking Pipeline:**
 1. **Baseline Retrieval:** Direct cosine similarity (NDCG@10: 97.30%)
@@ -580,6 +688,11 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
    - Multi-strategy fusion (favorites, history, preferences)
    - 76.7% preference match, <12ms latency
    - 100% personalization coverage
+5. **Multimodal Retrieval (v2.4.5+):** Text + Image fusion
+   - CLIP text embeddings for all products
+   - Image query encoding
+   - Learned fusion with α=0.7
+   - 6.0 unique products via fusion
 
 **Explainability (v2.1+):**
 - Fusion score decomposition (text vs image contribution)
@@ -592,6 +705,13 @@ Evaluated on **22 diverse test queries** covering specific items, general catego
 - Generation: GROQ Llama-3.3-70B (0.89s avg response)
 - Architecture: Three-stage pipeline (retrieve → augment → generate)
 - Implementation: Framework-agnostic (4 core dependencies)
+
+**Visual-Aware RAG (v2.4.5+):**
+- Retrieval: Multimodal fusion (text + image)
+- Augmentation: V2.1 visual attributes in prompts
+- Generation: GROQ Llama-3.3-70B (0.64s avg response)
+- Visual keywords: 7.6 per response (100% rate)
+- Architecture: Extended three-stage pipeline
 
 **AI Agent System (v2.3+):**
 - Agent architecture: ReAct (Reasoning + Acting)
@@ -637,6 +757,7 @@ pip install -r requirements.txt
 jupyter notebook
 # Navigate to v2.0-baseline/research/notebooks/phase10_reproducibility/
 # Or v2.1-core-ml-plus/notebooks/ for latest features
+# Or v2.4.5-multimodal-rag/notebooks/ for multimodal RAG
 ```
 
 **Option 2: Google Colab Demo**
@@ -713,6 +834,7 @@ The project was developed in 10 phases over 4 months:
 | **v2.2** | RAG Pipeline | Week 3 (Jan 3) | ✅ Complete |
 | **v2.3** | AI Agents + LangChain | Week 4-5 (Jan 3-4) | ✅ Complete |
 | **v2.4** | User Features + Personalization | Week 5 (Jan 5) | ✅ Complete |
+| **v2.4.5** | Multimodal RAG | Week 5 (Jan 6-12) | ✅ Complete |
 | **v2.5** | User Study + Paper | Week 6-7 | 📅 Planned |
 
 **📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/) and version-specific READMEs.
@@ -771,20 +893,30 @@ The project was developed in 10 phases over 4 months:
    - 100% personalization coverage across all users
    - Intent-aware integrated agent (83.3% personalization rate)
    - Profile, history, and favorites management
+
+6. **Multimodal RAG System (v2.4.5)**
+   - Image query support for fashion search
+   - CLIP-based multimodal fusion (text + image)
+   - Visual-aware RAG with attribute integration
+   - 7.6 visual keywords per response (100% rate)
+   - 0.64s average response time (28% faster than v2.2)
+   - 6.0 unique products via multimodal fusion
+   - V2.1 attribute integration (307K visual features)
+   - 6 comprehensive notebooks covering full pipeline
         
-6. **Comprehensive Evaluation Framework**
+7. **Comprehensive Evaluation Framework**
    - Rigorous evaluation on 104 diverse bilingual queries
    - 7 baseline method comparisons with RRF consensus ground truth
    - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
    - Category-wise performance breakdown
 
-7. **Production-Ready Implementation**
+8. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
    - Explainability system for transparent search results
 
-8. **Open Source Release**
+9. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
@@ -845,11 +977,12 @@ We gratefully acknowledge:
 - **v2.2:** RAG Pipeline - Complete ✅
 - **v2.3:** AI Agents + LangChain - Complete ✅
 - **v2.4:** User Features + Personalization - Complete ✅
+- **v2.4.5:** Multimodal RAG - Complete ✅
 - **v2.5:** User Study - Planned 📅
 - **Maintenance:** Ongoing
 - **Documentation:** Comprehensive
 
-**Last Updated:** January 5, 2026
+**Last Updated:** January 12, 2026
 
 ---
 
