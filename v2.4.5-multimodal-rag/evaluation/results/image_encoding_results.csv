@@ -1,0 +1,17 @@
+product_id,product_name,category,embedding_shape,embedding_norm
+8859,Mark Taylor Men White Striped Shirt,Shirts,"(768,)",19.407936
+18889,Arrow Woman Sylvia Blue Shirt,Shirts,"(768,)",18.96637
+8181,Locomotive Men Check Ladislav Purple Shirts,Shirts,"(768,)",17.80583
+5960,Highlander Men Solid Poplin Purple Shirts,Shirts,"(768,)",18.333303
+7187,Jealous 21 Women Supper Zipped Ankle Black Jeans,Jeans,"(768,)",20.737362
+27025,Jealous 21 Women Pink Jeans,Jeans,"(768,)",19.52821
+11282,Wrangler Men Blue Texas Jeans,Jeans,"(768,)",20.315199
+23401,Spykar Women Jeans,Jeans,"(768,)",20.862478
+46308,Fossil Women White Dial Watch AM4183,Watches,"(768,)",18.21009
+51556,Fastrack Men Black Dial Watch,Watches,"(768,)",17.638147
+45174,CASIO ENTICER Men Black Dial Analogue Watch A582,Watches,"(768,)",17.530056
+40549,Titan Women Black Watch,Watches,"(768,)",18.06872
+24050,Locomotive Men Printed Blue T-shirt,Tshirts,"(768,)",17.516603
+13967,Ed Hardy Men Printed Red Tshirts,Tshirts,"(768,)",16.918718
+4256,Inkfruit Men Grey Melange Printed T-shirt,Tshirts,"(768,)",16.694105
+50194,Gini and Jony Boys Black T-shirt,Tshirts,"(768,)",17.278925

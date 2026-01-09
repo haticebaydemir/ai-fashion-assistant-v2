@@ -1,0 +1,72 @@
+[
+  {
+    "query": "white shirts",
+    "query_type": "multimodal",
+    "response": "The top matching products are a great fit for the query \"white shirts\" as they all feature a predominantly white color palette. Visually, these products share a similar solid pattern, with some featuring a slight texture or subtle sheen, adding depth to the overall minimalist aesthetic. The cotton-like material appearance of these shirts also contributes to their cohesive look, making them versatile and easy to style. Overall, these products match the query due to their unified white color and simple, classic design.",
+    "retrieved_products": [
+      "8723",
+      "16358",
+      "43304",
+      "10803",
+      "9464"
+    ],
+    "response_time": 0.726876974105835,
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "query": "blue shirts",
+    "query_type": "multimodal",
+    "response": "The top matching products for \"blue shirts\" are a great fit due to their dominant blue color palette. Visually, they share similarities in their solid or subtly patterned designs, which complement the calming tone of blue. The cotton-like material appearance and casual style aesthetics of these shirts also contribute to their cohesive look. Overall, these products match the query by offering a range of blue shirt options with versatile and laid-back visual styles.",
+    "retrieved_products": [
+      "12190",
+      "26795",
+      "9235",
+      "24267",
+      "14037"
+    ],
+    "response_time": 0.6329607963562012,
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "query": "purple shirts",
+    "query_type": "multimodal",
+    "response": "The top matching products feature a range of purple shirts with varying shades and styles. These products match the query due to their dominant purple color, which is the primary visual element the user is looking for. Some products, such as the lightweight purple blouse, also feature a solid pattern and a smooth, cotton-like material appearance, creating a casual and minimalist aesthetic. Overall, the matching products offer a variety of purple shirts that cater to different tastes and styles, from formal to casual.",
+    "retrieved_products": [
+      "8181",
+      "13760",
+      "8188",
+      "6618",
+      "11695"
+    ],
+    "response_time": 0.6702680587768555,
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "query": "purple shirts",
+    "query_type": "multimodal",
+    "response": "The top matching products for \"purple shirts\" are a great fit due to their dominant purple hue, which immediately matches the user's query. These shirts also share a similar casual aesthetic, with a mix of solid and subtly patterned options that complement the rich purple color. The cotton-like material appearance of these shirts adds a cohesive touch, creating a visually appealing collection. Overall, these products match the query through their unified purple tone and relaxed, everyday style.",
+    "retrieved_products": [
+      "6618",
+      "18321",
+      "13395",
+      "26960",
+      "12369"
+    ],
+    "response_time": 0.5974373817443848,
+    "model": "llama-3.3-70b-versatile"
+  },
+  {
+    "query": "black jeans",
+    "query_type": "multimodal",
+    "response": "The top matching products feature dark-washed, cotton-like pants with a casual, versatile aesthetic, aligning perfectly with the query for black jeans. These products match visually due to their solid, monotone color scheme and denim-like material appearance. The minimalist style of these jeans also complements their dark color, creating a sleek and timeless look. Overall, these products offer a classic, everyday style that fits the user's search for black jeans.",
+    "retrieved_products": [
+      "7187",
+      "7707",
+      "9142",
+      "7193",
+      "7709"
+    ],
+    "response_time": 0.5813915729522705,
+    "model": "llama-3.3-70b-versatile"
+  }
+]

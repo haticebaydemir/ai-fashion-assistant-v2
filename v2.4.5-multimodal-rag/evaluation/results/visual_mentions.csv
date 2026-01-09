@@ -1,0 +1,6 @@
+query,visual_keywords_count,visual_keywords
+white shirts,7,"['pattern', 'style', 'material', 'solid', 'minimalist', 'cotton', 'visual']"
+blue shirts,7,"['pattern', 'style', 'material', 'solid', 'casual', 'cotton', 'visual']"
+purple shirts,9,"['pattern', 'style', 'material', 'solid', 'casual', 'formal', 'minimalist', 'cotton', 'visual']"
+purple shirts,7,"['pattern', 'style', 'material', 'solid', 'casual', 'cotton', 'visual']"
+black jeans,8,"['style', 'material', 'solid', 'casual', 'minimalist', 'cotton', 'denim', 'visual']"

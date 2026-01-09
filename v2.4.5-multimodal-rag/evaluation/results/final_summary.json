@@ -1,0 +1,53 @@
+{
+  "version": "v2.4.5",
+  "date": "2026-01-08T22:01:16.032835",
+  "metrics": {
+    "version": "v2.4.5",
+    "name": "Multimodal RAG",
+    "text_image_overlap": 0.4,
+    "multimodal_unique": 6.0,
+    "attribute_match": 0.6117063492063493,
+    "response_time": 0.6417869567871094,
+    "response_length": 495.6,
+    "visual_keywords_per_response": 7.6,
+    "retrieval_type": "multimodal",
+    "visual_aware": true,
+    "image_query_support": true
+  },
+  "statistics": {
+    "Dataset": {
+      "Total Products": 44417,
+      "Products with Attributes": 5,
+      "Test Queries": 5
+    },
+    "Retrieval Performance": {
+      "Avg Text-Image Overlap": "0.40 products",
+      "Avg Multimodal Unique": "6.00 products",
+      "Overlap Rate": "4.0%"
+    },
+    "RAG Performance": {
+      "Avg Response Time": "0.642s",
+      "Min Response Time": "0.581s",
+      "Max Response Time": "0.727s",
+      "Avg Response Length": "496 chars"
+    },
+    "Visual Awareness": {
+      "Avg Visual Keywords": "7.6 per response",
+      "Min Visual Keywords": 7,
+      "Max Visual Keywords": 9,
+      "Visual Keyword Rate": "100%"
+    },
+    "System Improvements": {
+      "v2.2 \u2192 v2.4.5 Speed": "28.1% faster",
+      "New Capability": "Image Query Support",
+      "Visual Awareness": "Added (0 \u2192 7.6 keywords)",
+      "Fusion Strategy": "Learned (\u03b1=0.7)"
+    }
+  },
+  "files_generated": [
+    "performance_visualization.png",
+    "performance_report.md",
+    "v2.4.5_comprehensive_results.xlsx",
+    "final_summary.json"
+  ]
+}

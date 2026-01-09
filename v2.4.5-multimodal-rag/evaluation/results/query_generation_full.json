@@ -1,0 +1,137 @@
+[
+  {
+    "product_id": 8859,
+    "product_name": "Mark Taylor Men White Striped Shirt",
+    "generated_query": "white shirts",
+    "attributes": {
+      "color": {
+        "value": "brown",
+        "confidence": 0.7283101677894592
+      },
+      "pattern": {
+        "value": "striped",
+        "confidence": 0.4418860375881195
+      },
+      "style": {
+        "value": "formal",
+        "confidence": 0.9314359426498413
+      },
+      "material": {
+        "value": "polyester",
+        "confidence": 0.3987002670764923
+      },
+      "season": {
+        "value": "spring",
+        "confidence": 0.38240566849708557
+      }
+    }
+  },
+  {
+    "product_id": 18889,
+    "product_name": "Arrow Woman Sylvia Blue Shirt",
+    "generated_query": "blue shirts",
+    "attributes": {
+      "color": {
+        "value": "brown",
+        "confidence": 0.6854711771011353
+      },
+      "pattern": {
+        "value": "striped",
+        "confidence": 0.22424732148647308
+      },
+      "style": {
+        "value": "formal",
+        "confidence": 0.9083030223846436
+      },
+      "material": {
+        "value": "silk",
+        "confidence": 0.45840179920196533
+      },
+      "season": {
+        "value": "fall",
+        "confidence": 0.6024730205535889
+      }
+    }
+  },
+  {
+    "product_id": 8181,
+    "product_name": "Locomotive Men Check Ladislav Purple Shirts",
+    "generated_query": "purple shirts",
+    "attributes": {
+      "color": {
+        "value": "purple",
+        "confidence": 0.7598934769630432
+      },
+      "pattern": {
+        "value": "plaid",
+        "confidence": 0.8650564551353455
+      },
+      "style": {
+        "value": "formal",
+        "confidence": 0.7875199913978577
+      },
+      "material": {
+        "value": "cotton",
+        "confidence": 0.5035480856895447
+      },
+      "season": {
+        "value": "fall",
+        "confidence": 0.4342186152935028
+      }
+    }
+  },
+  {
+    "product_id": 5960,
+    "product_name": "Highlander Men Solid Poplin Purple Shirts",
+    "generated_query": "purple shirts",
+    "attributes": {
+      "color": {
+        "value": "purple",
+        "confidence": 0.6066429018974304
+      },
+      "pattern": {
+        "value": "plaid",
+        "confidence": 0.9933016300201416
+      },
+      "style": {
+        "value": "formal",
+        "confidence": 0.4761946201324463
+      },
+      "material": {
+        "value": "cotton",
+        "confidence": 0.4038102924823761
+      },
+      "season": {
+        "value": "fall",
+        "confidence": 0.478554904460907
+      }
+    }
+  },
+  {
+    "product_id": 7187,
+    "product_name": "Jealous 21 Women Supper Zipped Ankle Black Jeans",
+    "generated_query": "black jeans",
+    "attributes": {
+      "color": {
+        "value": "black",
+        "confidence": 0.7074001431465149
+      },
+      "pattern": {
+        "value": "animal print",
+        "confidence": 0.35627481341362
+      },
+      "style": {
+        "value": "casual",
+        "confidence": 0.6914933919906616
+      },
+      "material": {
+        "value": "denim",
+        "confidence": 0.9760866761207581
+      },
+      "season": {
+        "value": "spring",
+        "confidence": 0.4022027552127838
+      }
+    }
+  }
+]

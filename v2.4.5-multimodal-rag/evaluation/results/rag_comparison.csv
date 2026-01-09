@@ -1,0 +1,4 @@
+query,baseline_response,visual_aware_response,baseline_time,visual_aware_time
+white shirts,"The top matching products are all white shirts, matching the user's query exactly. These products fe...","The top matching products are a great fit for the query ""white shirts"" as they all feature a predomi...",0.4708876609802246,0.726876974105835
+blue shirts,I've found a selection of blue shirts that match your query. These products feature various shades o...,"The top matching products for ""blue shirts"" are a great fit due to their dominant blue color palette...",0.5703542232513428,0.6329607963562012
+purple shirts,"The top matching products for ""purple shirts"" are a great fit, featuring various shades of purple fr...",The top matching products feature a range of purple shirts with varying shades and styles. These pro...,0.5862326622009277,0.6702680587768555
