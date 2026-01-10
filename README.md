@@ -84,6 +84,8 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - 6 comprehensive notebooks (architecture, processing, retrieval, RAG, evaluation, documentation)
 - **[See v2.4.5-multimodal-rag/README.md](./v2.4.5-multimodal-rag/README.md)**
 
+*This release is labeled v2.4.5 because it represents multiple rounds of stabilization and evaluation-driven refinement within the v2.4 architecture, while v2.5 is intentionally reserved for the upcoming user study and paper phase.*
+
 ---
 
 ## 🏗️ System Architecture
