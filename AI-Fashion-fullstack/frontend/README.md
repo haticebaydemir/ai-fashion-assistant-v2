@@ -150,7 +150,7 @@ Natural conversation in Turkish with product recommendations
 <td width="50%">
 
 **English Chat**
-![Chat EN](../../screenshots/Ekran_AlıntısıChatbot.PNG)
+![Chat EN](../../screenshots/Ekran%20AlıntısıChatbot.PNG)
 
 Llama-3.3-70B powered multilingual support
 
