@@ -3,8 +3,9 @@
 ![AI Fashion Assistant](../screenshots/Anasayfa.jpg)
 
 **Modern AI-powered fashion search and recommendation system with personalization**
+## Watch Full Demo Video
+[![Watch Full Demo Video](../screenshots/Anasayfa.jpg)](https://www.youtube.com/watch?v=RGvt3QTJjcg)
 
-> 📺 **[Watch Full Demo Video](../videos/demo.mp4)** - See all features in action
 
 ---
 
