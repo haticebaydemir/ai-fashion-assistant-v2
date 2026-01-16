@@ -1,10 +1,10 @@
 # 🎨 AI Fashion Assistant - Windows Edition
 
-![AI Fashion Assistant](screenshots/Anasayfa.jpg)
+![AI Fashion Assistant](../screenshots/Anasayfa.jpg)
 
 **Modern AI-powered fashion search and recommendation system with personalization**
 
-> 📺 **[Watch Full Demo Video](videos/demo.mp4)** - See all features in action
+> 📺 **[Watch Full Demo Video](../videos/demo.mp4)** - See all features in action
 
 ---
 
@@ -54,14 +54,14 @@ run_frontend.bat
 <td width="50%">
 
 #### Welcome Page
-![Home Page](screenshots/Anasayfa.jpg)
+![Home Page](../screenshots/Anasayfa.jpg)
 *Landing page with feature overview*
 
 </td>
 <td width="50%">
 
 #### Personalized Home
-![Personalized Home](screenshots/Anasayfa2.jpg)
+![Personalized Home](../screenshots/Anasayfa2.jpg)
 *After login with personalization active*
 
 </td>
@@ -73,14 +73,14 @@ run_frontend.bat
 <td width="50%">
 
 #### Login Page
-![Login](screenshots/LoginPage.jpg)
+![Login](../screenshots/LoginPage.jpg)
 *Secure authentication with JWT*
 
 </td>
 <td width="50%">
 
 #### Create Account
-![Register](screenshots/CreateAccount.jpg)
+![Register](../screenshots/CreateAccount.jpg)
 *User registration with validation*
 
 </td>
@@ -92,7 +92,7 @@ run_frontend.bat
 ### 🔍 Search Features
 
 #### Text Search
-![Text Search](screenshots/TextSearchWithResults.jpg)
+![Text Search](../screenshots/TextSearchWithResults.jpg)
 *Semantic search powered by MPNet embeddings - Search "red cap" and get personalized results*
 
 #### Image Search
@@ -100,13 +100,13 @@ run_frontend.bat
 <tr>
 <td width="50%">
 
-![Image Search Interface](screenshots/İmageSearch.jpg)
+![Image Search Interface](../screenshots/İmageSearch.jpg)
 *Upload an image to find similar products*
 
 </td>
 <td width="50%">
 
-![Image Search Results](screenshots/İmageSearchResults.jpg)
+![Image Search Results](../screenshots/İmageSearchResults.jpg)
 *CLIP-powered visual similarity search*
 
 </td>
@@ -114,7 +114,7 @@ run_frontend.bat
 </table>
 
 #### Multimodal Search
-![Multimodal Search](screenshots/MultimodalSearch.jpg)
+![Multimodal Search](../screenshots/MultimodalSearch.jpg)
 *Combine text and image for better results - "black shoes" + reference image*
 
 ---
@@ -126,14 +126,14 @@ run_frontend.bat
 <td width="50%">
 
 #### Chat in Turkish
-![Chat Turkish](screenshots/ChatbotTC.jpg)
+![Chat Turkish](../screenshots/ChatbotTC.jpg)
 *Natural conversation in Turkish with product recommendations*
 
 </td>
 <td width="50%">
 
 #### Chat in English
-![Chat English](screenshots/Ekran_AlıntısıChatbot.PNG)
+![Chat English](../screenshots/Ekran_AlıntısıChatbot.PNG)
 *Llama-3.3-70B powered responses with personalization*
 
 </td>
@@ -149,14 +149,14 @@ run_frontend.bat
 <td width="50%">
 
 #### My Favorites
-![Favorites](screenshots/Favorites.jpg)
+![Favorites](../screenshots/Favorites.jpg)
 *Save and manage your favorite products*
 
 </td>
 <td width="50%">
 
 #### Profile & Preferences
-![Profile](screenshots/Profile.jpg)
+![Profile](../screenshots/Profile.jpg)
 *Set style preferences, sizes, and favorite colors for personalized results*
 
 </td>
