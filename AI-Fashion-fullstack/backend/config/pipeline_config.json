@@ -1,0 +1,18 @@
+{
+  "rag_pipeline": {
+    "llm_model": "mixtral-8x7b-32768",
+    "temperature": 0.1,
+    "max_tokens": 500,
+    "context_window": 5,
+    "enable_cache": true,
+    "cache_ttl_seconds": 3600
+  },
+  "performance": {
+    "target_response_time_ms": 1000,
+    "batch_size": 10
+  },
+  "evaluation": {
+    "query_categories": ["simple_items", "specific_needs", "occasion_based"],
+    "target_score": 0.714
+  }
+}

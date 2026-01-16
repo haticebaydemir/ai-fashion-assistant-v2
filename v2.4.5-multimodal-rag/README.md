@@ -183,6 +183,13 @@ results_multimodal = retriever.retrieve_multimodal(
 - 7.6 visual keywords per response
 
 ---
+🔢 Version Naming Explanation (v2.4.5)
+
+The version v2.4.5 reflects an iterative refinement of the v2.4 personalization-aware RAG architecture. This release includes multiple rounds of multimodal retrieval tuning, visual-aware RAG improvements, and performance optimizations conducted within the same functional scope.
+
+Using v2.4.1 would underrepresent the maturity gained through these iterations, while moving to v2.5 would suggest a new architectural phase. Therefore, v2.4.5 accurately communicates a stabilized and evaluation-backed evolution of the v2.4 system.
+
+---
 
 ## 📊 Evaluation Results
 
