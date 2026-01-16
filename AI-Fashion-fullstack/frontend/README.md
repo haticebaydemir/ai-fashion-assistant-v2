@@ -1,6 +1,6 @@
 # 🎨 AI Fashion Assistant - Frontend
 
-![Frontend Overview](../screenshots/Anasayfa.jpg)
+![Frontend Overview](../../screenshots/Anasayfa.jpg)
 
 Modern React-based frontend with authentication, search, and AI chat functionality.
 
@@ -15,7 +15,7 @@ Modern React-based frontend with authentication, search, and AI chat functionali
 <td width="50%">
 
 **Landing Page (Logged Out)**
-![Landing](../screenshots/Anasayfa.jpg)
+![Landing](../../screenshots/Anasayfa.jpg)
 
 Features showcase with call-to-action
 
@@ -23,7 +23,7 @@ Features showcase with call-to-action
 <td width="50%">
 
 **Personalized Home (Logged In)**
-![Home Logged In](../screenshots/Anasayfa2.jpg)
+![Home Logged In](../../screenshots/Anasayfa2.jpg)
 
 Welcome message with active personalization
 
@@ -38,7 +38,7 @@ Welcome message with active personalization
 <td width="50%">
 
 **Login Page**
-![Login](../screenshots/LoginPage.jpg)
+![Login](../../screenshots/LoginPage.jpg)
 
 - JWT Authentication
 - Email + Password
@@ -49,7 +49,7 @@ Welcome message with active personalization
 <td width="50%">
 
 **Registration Page**
-![Register](../screenshots/CreateAccount.jpg)
+![Register](../../screenshots/CreateAccount.jpg)
 
 - Full name validation
 - Email verification
@@ -73,7 +73,7 @@ Welcome message with active personalization
 ### 🔍 Search Capabilities
 
 #### Text Search
-![Text Search](../screenshots/TextSearchWithResults.jpg)
+![Text Search](../../screenshots/TextSearchWithResults.jpg)
 
 **Features:**
 - Semantic search powered by MPNet (768d embeddings)
@@ -96,7 +96,7 @@ Welcome message with active personalization
 <td width="50%">
 
 **Upload Interface**
-![Image Upload](../screenshots/İmageSearch.jpg)
+![Image Upload](../../screenshots/İmageSearch.jpg)
 
 - Drag & drop support
 - File browser
@@ -107,7 +107,7 @@ Welcome message with active personalization
 <td width="50%">
 
 **Search Results**
-![Image Results](../screenshots/İmageSearchResults.jpg)
+![Image Results](../../screenshots/İmageSearchResults.jpg)
 
 - CLIP-powered similarity
 - Visual similarity scores
@@ -119,7 +119,7 @@ Welcome message with active personalization
 </table>
 
 #### Multimodal Search
-![Multimodal](../screenshots/MultimodalSearch.jpg)
+![Multimodal](../../screenshots/MultimodalSearch.jpg)
 
 **Combine text and image for best results:**
 - Text query: "black shoes"
@@ -142,7 +142,7 @@ Welcome message with active personalization
 <td width="50%">
 
 **Turkish Chat**
-![Chat TR](../screenshots/ChatbotTC.jpg)
+![Chat TR](../../screenshots/ChatbotTC.jpg)
 
 Natural conversation in Turkish with product recommendations
 
@@ -150,7 +150,7 @@ Natural conversation in Turkish with product recommendations
 <td width="50%">
 
 **English Chat**
-![Chat EN](../screenshots/Ekran_AlıntısıChatbot.PNG)
+![Chat EN](../../screenshots/Ekran_AlıntısıChatbot.PNG)
 
 Llama-3.3-70B powered multilingual support
 
@@ -177,7 +177,7 @@ Llama-3.3-70B powered multilingual support
 ---
 
 ### ❤️ Favorites Management
-![Favorites](../screenshots/Favorites.jpg)
+![Favorites](../../screenshots/Favorites.jpg)
 
 **Features:**
 - Save unlimited favorites
@@ -198,7 +198,7 @@ Llama-3.3-70B powered multilingual support
 ---
 
 ### 👤 User Profile & Preferences
-![Profile](../screenshots/Profile.jpg)
+![Profile](../../screenshots/Profile.jpg)
 
 **Profile Sections:**
 
