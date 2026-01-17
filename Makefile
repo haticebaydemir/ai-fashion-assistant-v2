@@ -1,12 +1,12 @@
 # ========================================
-# AI FASHION ASSISTANT V2.0 - MAKEFILE
+# AI FASHION ASSISTANT V2.5 - MAKEFILE
 # ========================================
 
 .PHONY: help setup install clean test api ui demo docs
 
 # Default target
 help:
-	@echo "AI Fashion Assistant v2.0 - Available Commands"
+	@echo "AI Fashion Assistant v2.5 - Available Commands"
 	@echo "=============================================="
 	@echo "  make setup       - Initial project setup"
 	@echo "  make install     - Install dependencies"
@@ -20,7 +20,7 @@ help:
 
 # Setup project
 setup:
-	@echo "🚀 Setting up AI Fashion Assistant v2.0..."
+	@echo "🚀 Setting up AI Fashion Assistant v2.5..."
 	@mkdir -p data/raw data/processed data/ground_truth data/schemas data/user_profiles
 	@mkdir -p embeddings/text embeddings/image embeddings/hybrid embeddings/user
 	@mkdir -p models/fusion models/reranker models/personalization models/checkpoints
