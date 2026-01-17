@@ -15,7 +15,7 @@
 
 ## 🎥 Demo Video
 
-[![Watch Full Demo](https://img.youtube.com/vi/RGvt3QTJjcg/maxresdefault.jpg)](https://www.youtube.com/watch?v=RGvt3QTJjcg)
+
 
 **Watch the complete system demonstration:** [YouTube Video](https://www.youtube.com/watch?v=RGvt3QTJjcg)
 
