@@ -987,12 +987,6 @@ Deploy seçenekleri:
 
 ---
 
-## 🤝 Contributing
-
-Bu proje kişisel bir eğitim projesidir. Önerileriniz için issue açabilirsiniz.
-
----
-
 ## 📄 License
 
 MIT License - Educational purposes
@@ -1048,7 +1042,3 @@ MIT License - Educational purposes
 
 ---
 
-**⭐ Projeyi beğendiyseniz yıldızlamayı unutmayın!**
-
-**📧 İletişim:** [GitHub Issues](https://github.com/your-repo/issues)
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
