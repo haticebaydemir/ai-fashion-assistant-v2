@@ -3,9 +3,28 @@
 **A production-ready multimodal fashion search system with GenAI enhancements, achieving 97.4% NDCG@10 through learned fusion and comprehensive visual attribute extraction**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
+[![React](https://img.shields.io/badge/React-18-blue.svg)](https://reactjs.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.109-green.svg)](https://fastapi.tiangolo.com/)
 [![TÜBİTAK](https://img.shields.io/badge/TÜBİTAK-2209--A-red.svg)](https://www.tubitak.gov.tr/)
-[![Dataset](https://img.shields.io/badge/Dataset-Kaggle-20BEFF.svg)](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![SUS](https://img.shields.io/badge/SUS-84.50%20(A)-brightgreen.svg)](#-user-study-results-v25)
+[![Users](https://img.shields.io/badge/Study-n%3D25-blue.svg)](#-user-study-results-v25)
+
+
+---
+
+## 🎥 Demo Video
+
+[![Watch Full Demo](https://img.youtube.com/vi/RGvt3QTJjcg/maxresdefault.jpg)](https://www.youtube.com/watch?v=RGvt3QTJjcg)
+
+**Watch the complete system demonstration:** [YouTube Video](https://www.youtube.com/watch?v=RGvt3QTJjcg)
+
+**Demo Highlights:**
+- ✅ Multimodal search (text, image, hybrid)
+- ✅ AI chat assistant with product recommendations
+- ✅ Real-time personalization
+- ✅ MongoDB database integration
+- ✅ Full-stack architecture (React + FastAPI)
 
 ---
 
@@ -23,7 +42,9 @@ This repository contains a complete implementation of a multimodal fashion produ
 - 🤝 **100% tool usage** - Conversational AI agents with memory (v2.3+)
 - 👤 **76.7% preference match** - Content-based personalization system (v2.4+)
 - 🖼️ **Image query support** - Multimodal RAG with visual awareness (v2.4.5+)
-- 🚀 **Production-ready** - Complete deployment pipeline included
+- 🏆 **SUS 84.50 (Grade A)** - Exceptional usability matching industry leaders (v2.5)
+- 👥 **92% adoption intent** - High user satisfaction in study with 25 participants (v2.5)
+- 🚀 **Production-ready** - Complete full-stack deployment with React + FastAPI + MongoDB
 ---
 
 ## 🗺️ Development Roadmap
@@ -85,6 +106,160 @@ This project follows a structured 7-week development roadmap (January 2 - Februa
 - **[See v2.4.5-multimodal-rag/README.md](./v2.4.5-multimodal-rag/README.md)**
 
 *This release is labeled v2.4.5 because it represents multiple rounds of stabilization and evaluation-driven refinement within the v2.4 architecture, while v2.5 is intentionally reserved for the upcoming user study and paper phase.*
+
+### ✅ v2.5: Full-Stack Application + User Study (January 13-17, 2026)
+- **Status:** COMPLETE ✅
+- **Production-ready full-stack web application**
+  - React 18 + Vite frontend with modern UI
+  - FastAPI backend with async support
+  - MongoDB database with 4 collections
+  - JWT authentication & authorization
+  - RESTful API design
+- **Complete feature set:**
+  - Multimodal search (text, image, hybrid)
+  - AI chat assistant (Llama-3.3-70B via GROQ)
+  - Personalization system (preferences + favorites)
+  - User management (profiles, history, analytics)
+  - Database integration (MongoDB Atlas)
+- **User study results (n=25 participants):**
+  - **SUS Score: 84.50 / 100 (Grade A - Excellent)** 🏆
+  - 88% of participants rated the system as "Good" or better
+  - **92% real-world usage intent** (would use in real life)
+  - Custom metrics: 83-89% satisfaction across all dimensions
+  - Response time satisfaction: 88.8% (4.44/5)
+  - Search accuracy satisfaction: 86.4% (4.32/5)
+  - Visual preference understanding: 83.2% (4.16/5)
+- **Performance:**
+  - Sub-second response times (<1s average)
+  - 44,417 products indexed
+  - 347 searches tracked
+  - 32 active users
+  - 139 favorites saved
+- **Deployment:**
+  - Hugging Face Spaces (Streamlit demo)
+  - Local deployment guide (Windows batch scripts)
+  - Docker support
+  - MongoDB Atlas cloud database
+- **[See AI-Fashion-fullstack/README.md](./AI-Fashion-fullstack/README.md) for complete documentation**
+- **[See USER_STUDY_RESULTS.md](./USER_STUDY_RESULTS.md) for detailed evaluation**
+
+**Key Achievement:** The system achieved exceptional usability (SUS 84.50) matching industry leaders like Amazon, demonstrating that academic research prototypes can achieve commercial-grade user experience.
+
+---
+
+## 📸 Application Screenshots
+
+### Full-Stack Application (v2.5)
+
+<table>
+<tr>
+<td width="50%">
+
+#### 🏠 Home Page
+![Home Page](screenshots/Anasayfa.jpg)
+*Modern landing page with feature overview*
+
+</td>
+<td width="50%">
+
+#### 🔐 Authentication
+![Login](screenshots/LoginPage.jpg)
+*Secure JWT authentication*
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 🔍 Text Search
+![Text Search](screenshots/TextSearchWithResults.jpg)
+*Natural language search with instant results*
+
+</td>
+<td width="50%">
+
+#### 🖼️ Image Search
+![Image Search](screenshots/İmageSearchResults.jpg)
+*Visual search with CLIP embeddings*
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 🔀 Multimodal Search
+![Multimodal](screenshots/MultimodalSearch.jpg)
+*Combined text + image search*
+
+</td>
+<td width="50%">
+
+#### 💬 AI Chat Assistant
+![Chat](screenshots/ChatbotTC.jpg)
+*Conversational AI with Llama-3.3-70B*
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### ❤️ Favorites
+![Favorites](screenshots/Favorites.jpg)
+*Personalized favorites collection*
+
+</td>
+<td width="50%">
+
+#### 👤 User Profile
+![Profile](screenshots/Profile.jpg)
+*User preferences and history*
+
+</td>
+</tr>
+</table>
+
+### Database Architecture
+
+<table>
+<tr>
+<td width="50%">
+
+#### 📊 MongoDB Collections
+![Collections](screenshots/mongodb-collections-stats.png)
+*4 collections: products, users, profiles, favorites*
+
+</td>
+<td width="50%">
+
+#### 🗄️ Database Structure
+![Structure](screenshots/mongodb-database-structure.png)
+*Complete schema and relationships*
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 👥 User Management
+![Users](screenshots/mongodb-users.png)
+*32 active users with JWT authentication*
+
+</td>
+<td width="50%">
+
+#### 📜 Search History
+![History](screenshots/mongodb-search-history.png)
+*347 searches tracked for analytics*
+
+</td>
+</tr>
+</table>
+
+**More Screenshots:** See [screenshots/](./screenshots/) directory for complete collection.
 
 ---
 
@@ -326,6 +501,8 @@ v2.3-ai-agents-langchain/
 
 **📖 [See v2.3-ai-agents-langchain/README.md for detailed documentation](./v2.3-ai-agents-langchain/README.md)**
 
+---
+
 ### ✅ [v2.4-complete/](./v2.4-complete/) - User Features + Personalization
 
 **Status:** Complete (January 5, 2026)
@@ -440,6 +617,104 @@ v2.4.5-multimodal-rag/
 - Visual keyword rate: 100%
 
 **📖 [See v2.4.5-multimodal-rag/README.md for detailed documentation](./v2.4.5-multimodal-rag/README.md)**
+
+---
+
+### ✅ [AI-Fashion-fullstack/](./AI-Fashion-fullstack/) - Full-Stack Application (v2.5)
+
+**Status:** Complete (January 13-17, 2026)
+
+Production-ready full-stack web application with user study results:
+```
+AI-Fashion-fullstack/
+├── frontend/                           # React 18 + Vite
+│   ├── src/
+│   │   ├── components/                 # UI components
+│   │   │   ├── Auth/                   # Login, Register
+│   │   │   ├── Search/                 # Text, Image, Multimodal
+│   │   │   ├── Chat/                   # AI Assistant
+│   │   │   ├── Profile/                # User preferences
+│   │   │   └── Favorites/              # Saved items
+│   │   ├── pages/                      # Main pages
+│   │   ├── services/                   # API integration
+│   │   └── App.jsx                     # Main app
+│   ├── package.json                    # Dependencies
+│   ├── vite.config.js                  # Vite config
+│   └── README.md                       # Frontend docs
+│
+├── backend/                            # FastAPI server
+│   ├── app/
+│   │   ├── routes/                     # API endpoints
+│   │   │   ├── auth.py                 # Authentication
+│   │   │   ├── search.py               # Search API
+│   │   │   ├── chat.py                 # Chat API
+│   │   │   ├── users.py                # User management
+│   │   │   └── favorites.py            # Favorites API
+│   │   ├── models/                     # Data models
+│   │   ├── services/                   # Business logic
+│   │   │   ├── search_service.py       # Search engine
+│   │   │   ├── chat_service.py         # AI chat
+│   │   │   └── personalization.py      # Personalization
+│   │   └── database.py                 # MongoDB connection
+│   ├── data/                           # Embeddings & models
+│   │   ├── embeddings/                 # FAISS indices
+│   │   ├── models/                     # ML models
+│   │   └── products/                   # Product data
+│   ├── main.py                         # FastAPI app
+│   ├── requirements.txt                # Dependencies
+│   └── README.md                       # Backend docs
+│
+├── screenshots/                        # Application UI
+│   ├── Anasayfa.jpg                    # Homepage
+│   ├── LoginPage.jpg                   # Authentication
+│   ├── TextSearchWithResults.jpg       # Text search
+│   ├── İmageSearchResults.jpg          # Image search
+│   ├── MultimodalSearch.jpg            # Hybrid search
+│   ├── ChatbotTC.jpg                   # AI chat
+│   ├── Favorites.jpg                   # Saved items
+│   ├── Profile.jpg                     # User profile
+│   ├── mongodb-database-structure.png  # DB schema
+│   ├── mongodb-collections-stats.png   # Collections
+│   ├── mongodb-users.png               # User data
+│   └── mongodb-search-history.png      # Analytics
+│
+├── README.md                           # Complete documentation
+├── QUICKSTART.md                       # 5-step setup guide
+└── FEATURE_CHECKLIST.md                # Feature tracking
+```
+
+**Key Features:**
+- ✅ React 18 frontend with modern UI/UX
+- ✅ FastAPI backend with async support
+- ✅ MongoDB database (4 collections: products, users, profiles, favorites)
+- ✅ JWT authentication & authorization
+- ✅ Multimodal search (text, image, hybrid)
+- ✅ AI chat assistant (Llama-3.3-70B via GROQ)
+- ✅ Personalization system
+- ✅ User management (profiles, history, analytics)
+
+**User Study Results (n=25 participants):**
+- **SUS Score: 84.50 / 100 (Grade A - Excellent)** 🏆
+- 88% of participants rated as "Good" or better
+- 92% real-world usage intent
+- Custom metrics: 83-89% satisfaction
+
+**Performance:**
+- Sub-second response times (<1s average)
+- 44,417 products indexed
+- 347 searches tracked
+- 32 active users
+- 139 favorites saved
+
+**Deployment:**
+- Hugging Face Spaces (Streamlit demo)
+- Local deployment with Windows batch scripts
+- Docker support
+- MongoDB Atlas cloud database
+
+**📖 [See AI-Fashion-fullstack/README.md for complete documentation](./AI-Fashion-fullstack/README.md)**  
+**📊 [See USER_STUDY_RESULTS.md for detailed user study analysis](./USER_STUDY_RESULTS.md)**
+
 
 ---
 
@@ -837,7 +1112,7 @@ The project was developed in 10 phases over 4 months:
 | **v2.3** | AI Agents + LangChain | Week 4-5 (Jan 3-4) | ✅ Complete |
 | **v2.4** | User Features + Personalization | Week 5 (Jan 5) | ✅ Complete |
 | **v2.4.5** | Multimodal RAG | Week 5 (Jan 6-12) | ✅ Complete |
-| **v2.5** | User Study + Paper | Week 6-7 | 📅 Planned |
+| **v2.5** | Full-Stack + User Study | Week 6-7 (Jan 13-17) | ✅ Complete |
 
 **📖 Detailed phase documentation:** See [`v2.0-baseline/research/notebooks/`](./v2.0-baseline/research/notebooks/) and version-specific READMEs.
 
@@ -905,20 +1180,41 @@ The project was developed in 10 phases over 4 months:
    - 6.0 unique products via multimodal fusion
    - V2.1 attribute integration (307K visual features)
    - 6 comprehensive notebooks covering full pipeline
-        
-7. **Comprehensive Evaluation Framework**
+
+7. **Full-Stack Production System (v2.5)**
+   - Complete web application with React + FastAPI + MongoDB
+   - JWT authentication and user management
+   - Real-time search and AI chat integration
+   - Comprehensive user study (n=25 participants)
+   - **Exceptional usability: SUS 84.50 (Grade A)**
+     - Matches industry leaders (Amazon: 84, Facebook: 73)
+     - 88% of users rated as "Good" or better
+     - Significantly exceeds industry average (68)
+   - **Very high adoption intent: 92%**
+     - 56% "Definitely yes"
+     - 36% "Probably yes"
+     - Demonstrates strong perceived value
+   - **Excellent across all dimensions:**
+     - Ease of use: 4.44/5 (88.8%)
+     - Learnability: 4.32/5 (86.4%)
+     - User confidence: 4.08/5 (81.6%)
+     - Low complexity: 1.72/5 (minimal)
+   - Production deployment on Hugging Face Spaces
+   - Comprehensive setup guides for local deployment
+
+8. **Comprehensive Evaluation Framework**
    - Rigorous evaluation on 104 diverse bilingual queries
    - 7 baseline method comparisons with RRF consensus ground truth
    - Query type analysis (simple, attribute, occasion, style, complex, seasonal, budget)
    - Category-wise performance breakdown
 
-8. **Production-Ready Implementation**
+9. **Production-Ready Implementation**
    - Complete end-to-end pipeline from raw data to deployment
    - SSOT (Single Source of Truth) framework for reproducibility
    - 30+ documented notebooks covering all development phases
    - Explainability system for transparent search results
 
-9. **Open Source Release**
+10. **Open Source Release**
    - Fully documented codebase with reproducibility guides
    - Clean separation of research and production code
    - Deployment configs for Docker and cloud platforms
@@ -980,11 +1276,14 @@ We gratefully acknowledge:
 - **v2.3:** AI Agents + LangChain - Complete ✅
 - **v2.4:** User Features + Personalization - Complete ✅
 - **v2.4.5:** Multimodal RAG - Complete ✅
-- **v2.5:** User Study - Planned 📅
+- **v2.5:** Full-Stack + User Study - **COMPLETE** ✅
+  - SUS Score: 84.50 (Grade A - Excellent) 🏆
+  - 92% real-world usage intent
+  - 25 participants evaluated
 - **Maintenance:** Ongoing
 - **Documentation:** Comprehensive
 
-**Last Updated:** January 12, 2026
+**Last Updated:** January 17, 2026
 
 ---
 
