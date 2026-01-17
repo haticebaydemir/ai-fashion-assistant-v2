@@ -10,7 +10,7 @@
 [![SUS](https://img.shields.io/badge/SUS-84.50%20(A)-brightgreen.svg)](#-user-study-results-v25)
 [![Users](https://img.shields.io/badge/Study-n%3D25-blue.svg)](#-user-study-results-v25)
 
-
+![animation](screenshots/animation.gif)
 ---
 
 ## 🎥 Demo Video
