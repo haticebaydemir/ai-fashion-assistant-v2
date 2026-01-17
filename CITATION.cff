@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "AI Fashion Assistant: Multimodal Fashion Search System"
+version: 2.5
+date-released: 2026-01-17
+url: "https://github.com/haticebaydemir/ai-fashion-assistant-v2"
+repository-code: "https://github.com/haticebaydemir/ai-fashion-assistant-v2"
+authors:
+  - family-names: Baydemir
+    given-names: Hatice
+    affiliation: "Karamanoğlu Mehmetbey University"
+    email: "haticebaydemir@example.com"
+preferred-citation:
+  type: software
+  title: "AI Fashion Assistant v2.5: Production-Ready Multimodal Fashion Search with Exceptional Usability"
+  authors:
+    - family-names: Baydemir
+      given-names: Hatice
+    - family-names: Kuş
+      given-names: İlya
+  year: 2026
+  publisher: "GitHub"
+  url: "https://github.com/haticebaydemir/ai-fashion-assistant-v2"
+  abstract: "A production-ready multimodal fashion search system achieving 97.4% NDCG@10 and exceptional usability (SUS 84.50, Grade A) through learned fusion of CLIP and sentence-transformers embeddings. Features full-stack implementation with React, FastAPI, and MongoDB, comprehensive user study with 25 participants, and 92% real-world adoption intent."
+keywords:
+  - fashion-search
+  - multimodal-ai
+  - CLIP
+  - sentence-transformers
+  - FAISS
+  - vector-search
+  - recommendation-system
+  - e-commerce
+  - retrieval-augmented-generation
+  - full-stack
+  - react
+  - fastapi
+  - mongodb
+  - user-study
+  - usability
+  - tubitak
+license: MIT
